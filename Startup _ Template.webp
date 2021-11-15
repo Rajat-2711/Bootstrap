@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://preview.colorlib.com/theme/thestartup/ -->
+<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers" lang="zxx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Startup | Template</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="https://preview.colorlib.com/theme/thestartup/site.webmanifest">
+<link rel="shortcut icon" type="image/x-icon" href="https://preview.colorlib.com/theme/thestartup/assets/img/favicon.ico">
+
+<link rel="stylesheet" href="./Startup _ Template_files/A.bootstrap.min.css+owl.carousel.min.css+slicknav.css+animate.min.css+magnific-popup.css+fontawesome-all.min.css+themify-icons.css+slick.css+nice-select.css,Mcc.BOWpah8RMH.css.pagespeed.cf.5H.css">
+<link rel="stylesheet" href="./Startup _ Template_files/A.style.css.pagespeed.cf.XB3ZuAF_Tk.css">
+</head>
+<body>
+<header>
+<div class="header-area">
+<div class="main-header header-sticky sticky-bar">
+<div class="container-fluid">
+<div class="row align-items-center">
+
+<div class="col-xl-2 col-lg-2">
+<div class="logo">
+<a href="https://preview.colorlib.com/theme/thestartup/index.html"><img src="data:image/webp;base64,UklGRlwCAABXRUJQVlA4TFACAAAvc8AGEK+hqG0kx6vl/zjCvUKY/0DQtm1eBmdy/mzOYB6Ckg1QFCaXcCj7v0A5zVKEAE3XDxQhzaAKlw8gPcCybTttc69RIUdhg1QIuUx25z84SbYc+I/o/wSge/P4jftb66f702itfwbJRzHT1a2ptdZPQ8xoHamb0mjzx58kg0wKMgNQFcUgZVFeTG158hczqACMRQVAkoMIiktptP3HGynQ8WbUjidvEWN1a5ov7X778yTJeOOoZmRRGNVqsapQFBWgikLli5VCkTItSlRFYZRFCaAoKhSLxc7S/n++nY6679Px7f2/6aOmJMOFMiRNAHOSDNekBHIyJTkFTQFJGoICADlNSTJVwF4P+dh0A5YByXDdSZJMEtJlVt7ISARkqlAPsm/7AOuE5BaAJAFUZFACZeSKFCoAggLwsATUlJRAPcC+hc8lGXdYkmsAyF1rWD0JAFARUwC1t30LvxmZuyQJqysfZGlgTAJA7Wnfome5mlvyTtllrS2ZDbWXfYu+U1IZspMkS0MNkzoyS8rAgtrDvkXvLTkDoEIGcJXkxJj4KwFFTi2hApCTYxvqXvsWHhMyXcxDUnaAIEebzYSeSjLe7FJybWG4KOYkS8dvr1f4rAJap+hSJTQTT8honcKS0LqG87XXwQtUFpHjHOZaCANKRkwkhFgDpRClLROZgVwEgVjDJvMxOc7hrns9+blyUqLvoZdu74Hu/3sHGtf5wfFxB75t5wbt64Pl5Q68GodfmE1tHG6PEOs+Z60Pv3A3tdaPt8fjy/M3ujfn/W0D" alt=""></a>
+</div>
+</div>
+<div class="col-xl-10 col-lg-10">
+<div class="menu-wrapper d-flex align-items-center justify-content-end">
+
+<div class="main-menu d-none d-lg-block">
+<nav>
+<ul id="navigation">
+<li><a href="https://preview.colorlib.com/theme/thestartup/index.html">Home</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/about.html">About</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/services.html">Services</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/#">Blog</a>
+<ul class="submenu">
+<li><a href="https://preview.colorlib.com/theme/thestartup/blog.html">Blog</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/blog_details.html">Blog Details</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/elements.html">Element</a></li>
+</ul>
+</li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/contact.html">Contact</a></li>
+
+<li class="button-header">
+<a href="https://preview.colorlib.com/theme/thestartup/login.html" target="_blank" class="btn_0 header-btn">Join Us</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+
+<div class="col-12">
+<div class="mobile_menu d-block d-lg-none"><div class="slicknav_menu"><a href="https://preview.colorlib.com/theme/thestartup/#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+<li><a href="https://preview.colorlib.com/theme/thestartup/index.html" role="menuitem" tabindex="-1">Home</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/about.html" role="menuitem" tabindex="-1">About</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/services.html" role="menuitem" tabindex="-1">Services</a></li>
+<li class="slicknav_collapsed slicknav_parent"><a href="https://preview.colorlib.com/theme/thestartup/#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1">Blog</a>
+<span class="slicknav_arrow">+</span></a><ul class="submenu slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+<li><a href="https://preview.colorlib.com/theme/thestartup/blog.html" role="menuitem" tabindex="-1">Blog</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/blog_details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/elements.html" role="menuitem" tabindex="-1">Element</a></li>
+</ul>
+</li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+
+<li class="button-header">
+<a href="https://preview.colorlib.com/theme/thestartup/login.html" target="_blank" class="btn_0 header-btn" role="menuitem" tabindex="-1">Join Us</a>
+</li>
+</ul></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main>
+
+<div class="slider-area slider-height">
+<div class="slider-active slick-initialized slick-slider">
+
+
+<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1519px;"><div class="single-slider slick-slide slick-current slick-active" tabindex="0" style="width: 1519px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" data-slick-index="0" aria-hidden="false">
+<div class="slider-cap-wrapper">
+<div class="hero-caption">
+<span>We are new but doing great</span>
+<h1 data-animation="fadeInUp" data-delay=".2s" class="" style="animation-delay: 0.2s;">We give the power back to the user</h1>
+<p data-animation="fadeInUp" data-delay=".6s" class="" style="animation-delay: 0.6s;">Content marketing is nothing but offering users value.<br>It is not just about traffic minion customers.</p>
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="btn hero-btn" data-animation="fadeInUp" data-delay="1s" tabindex="0" style="animation-delay: 1s;">Explore Us</a>
+</div>
+<div class="hero-img position-relative">
+<img src="./Startup _ Template_files/xh1_hero1.jpg.pagespeed.ic.TfKm3eF2ZK.webp" alt="" data-animation="fadeInRight" data-transition-duration="5s" class="">
+</div>
+</div>
+</div></div></div></div>
+</div>
+
+
+<section class="services-area section-padding">
+<div class="container">
+
+<div class="row justify-content-between mb-55">
+<div class="col-xl-5 col-lg-6 col-md-6">
+<div class="section-tittle section-tittle3">
+<h2>Services we provide</h2>
+</div>
+</div>
+<div class="col-xl-5 col-lg-6 col-md-6">
+<div class="section-tittle section-tittle3">
+<p>Content marketing is nothing but offering users value. It is not just about traffic minion customers.</p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6">
+<div class="single-cat mb-50">
+<div class="cat-icon">
+<img src="./Startup _ Template_files/services1.svg" alt="">
+</div>
+<div class="cat-cap">
+<h5><a href="https://preview.colorlib.com/theme/thestartup/#">Web Design</a></h5>
+<p>Content marketing is nothing but offering users value.</p>
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="browse-btn">Let's Talk</a>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6">
+<div class="single-cat mb-50">
+<div class="cat-icon">
+<img src="./Startup _ Template_files/services2.svg" alt="">
+</div>
+<div class="cat-cap">
+<h5><a href="https://preview.colorlib.com/theme/thestartup/#">Web Design</a></h5>
+<p>Content marketing is nothing but offering users value.</p>
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="browse-btn">Let's Talk</a>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6">
+<div class="single-cat mb-50">
+<div class="cat-icon">
+<img src="./Startup _ Template_files/services3.svg" alt="">
+</div>
+<div class="cat-cap">
+<h5><a href="https://preview.colorlib.com/theme/thestartup/#">E-commerce</a></h5>
+<p>Content marketing is nothing but offering users value.</p>
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="browse-btn">Let's Talk</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="about-area">
+
+<div class="about-img">
+</div>
+
+<div class="about-details">
+<div class="right-caption">
+
+<div class="section-tittle mb-50">
+<h2>Our<br>Philosophy</h2>
+</div>
+<div class="about-more">
+<p>The automated process starts as soon as
+your clothes go into the machine. Duis cursus, mi quis
+viverra ornare, eros dolor interdum nulla, ut commodo
+diam libero vitae erat. Aenean faucibus nibh et justo
+cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+risus tristique posuere.</p>
+<p class="pera-bottom">Interdum nulla, ut commodo diam libero vitae erat.
+Aenean faucibus nibh et justo cursus id rutrum lorem
+imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+<div class="footer-tittles">
+<p>CEO, Consulto</p>
+<h2>Capcilena Hanry</h2>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="pricing-card-area section-padding">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-xl-8 col-lg-7 col-md-10">
+<div class="section-tittle section-tittle2  text-center mb-60">
+<h2>Affordable pricing plan</h2>
+<p>Content marketing is nothing but offering users value. It is not just about traffic minion consectetur adipiscing elitd do eiusmod tempor incididun.</p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+<div class="single-card text-center mb-30">
+<div class="card-top">
+<span>Basic Plan</span>
+</div>
+<div class="card-mid">
+<h4><span>$</span> 700</h4>
+<p>Content marketing is nothing but offering users value.</p>
+</div>
+<div class="card-bottom">
+<ul>
+<li>Increase traffic 50%</li>
+<li>Social Media Marketing</li>
+<li>10 Free Optimization</li>
+<li> 24/7 support</li>
+</ul>
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="btn get-btn">Get Started Now</a>
+</div>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+<div class="single-card text-center active mb-30">
+<div class="card-top">
+<span>Basic Plan</span>
+</div>
+<div class="card-mid">
+<h4><span>$</span> 700</h4>
+<p>Content marketing is nothing but offering users value.</p>
+</div>
+<div class="card-bottom">
+<ul>
+<li>Increase traffic 50%</li>
+<li>Social Media Marketing</li>
+<li>10 Free Optimization</li>
+<li> 24/7 support</li>
+</ul>
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="btn get-btn">Get Started Now</a>
+</div>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+<div class="single-card text-center mb-30">
+<div class="card-top">
+<span>Basic Plan</span>
+</div>
+<div class="card-mid">
+<h4><span>$</span> 700</h4>
+<p>Content marketing is nothing but offering users value.</p>
+</div>
+<div class="card-bottom">
+<ul>
+<li>Increase traffic 50%</li>
+<li>Social Media Marketing</li>
+<li>10 Free Optimization</li>
+<li> 24/7 support</li>
+</ul>
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="btn get-btn">Get Started Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="project-us pb-padding bottom-padding">
+<div class="container">
+<div class="row align-items-center justify-content-between">
+<div class="col-xl-6 col-lg-6 col-md-10">
+<div class="project-caption">
+
+<div class="section-tittle  mb-20">
+<h2>Some more features that seal the deal and convert the customer</h2>
+</div>
+
+<div class="collapse-wrapper">
+<div class="accordion" id="accordionExample">
+
+<div class="card">
+<div class="card-header" id="headingTwo">
+<h2 class="mb-0">
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Starts the automated process.</a>
+</h2>
+</div>
+<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+<div class="card-body">
+The automated process starts as soon as
+your clothes go into the machine. Duis cursus, mi
+quis viverra ornare.
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="headingOne">
+<h2 class="mb-0">
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">The automated process starts.</a>
+</h2>
+</div>
+<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+<div class="card-body">
+The automated process starts as soon as
+your clothes go into the machine. Duis cursus, mi
+quis viverra ornare.
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="headingThree">
+<h2 class="mb-0">
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Automated process starts.</a>
+</h2>
+</div>
+<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+<div class="card-body">
+The automated process starts as soon as
+your clothes go into the machine. Duis cursus, mi
+quis viverra ornare.
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="headingfouree">
+<h2 class="mb-0">
+<a href="https://preview.colorlib.com/theme/thestartup/#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseFoure" aria-expanded="false" aria-controls="collapseFoure">Process the automated magic.</a>
+</h2>
+</div>
+<div id="collapseFoure" class="collapse" aria-labelledby="headingfouree" data-parent="#accordionExample">
+<div class="card-body">
+The automated process starts as soon as
+your clothes go into the machine. Duis cursus, mi
+quis viverra ornare.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xl-5 col-lg-6 col-md-10 col-sm-10">
+<div class="project-right-cap">
+<div class="project-right-img">
+<img src="./Startup _ Template_files/xabout2.jpg.pagespeed.ic.M38VMlRxNJ.webp" alt="">
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="testimonial-area section-padding section-img-bg" data-background="assets/img/gallery/section-bg1.jpg" style="background-image: url(&quot;assets/img/gallery/section-bg1.jpg&quot;);">
+<div class="container">
+<div class="row justify-content-end">
+<div class="col-xl-7 col-lg-8 col-md-11 ">
+<div class="h1-testimonial-active dot-style slick-initialized slick-slider">
+
+
+
+
+<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 3350px; transform: translate3d(-1340px, 0px, 0px);"><div class="single-testimonial position-relative slick-slide slick-cloned" tabindex="-1" style="width: 670px;" data-slick-index="-1" aria-hidden="true">
+<div class="testimonial-caption">
+<h3>"Process starts as soon as your clothes commodo diam libero vitae.</h3>
+<p>The automated process starts as soon as your clothes go into
+the machine. Duis cursus, mi quis viverra ornare, eros dolor
+interdum nulla, ut commodo diam libero vitae erat. Aenean
+faucibus nibh et justo cursus id rutrum lorem imperdiet.</p>
+</div>
+
+<div class="testimonial-founder d-flex align-items-center">
+<div class="founder-text">
+<p>- Robert Brown <span>CEO of Colorlib</span></p>
+</div>
+</div>
+</div><div class="single-testimonial position-relative slick-slide" tabindex="-1" style="width: 670px;" data-slick-index="0" aria-hidden="true">
+<div class="testimonial-caption">
+<h3>"Process starts as soon as your clothes commodo diam libero vitae.</h3>
+<p>The automated process starts as soon as your clothes go into
+the machine. Duis cursus, mi quis viverra ornare, eros dolor
+interdum nulla, ut commodo diam libero vitae erat. Aenean
+faucibus nibh et justo cursus id rutrum lorem imperdiet.</p>
+</div>
+
+<div class="testimonial-founder d-flex align-items-center">
+<div class="founder-text">
+<p>- Robert Brown <span>CEO of Colorlib</span></p>
+</div>
+</div>
+</div><div class="single-testimonial position-relative slick-slide slick-current slick-active" tabindex="0" style="width: 670px;" data-slick-index="1" aria-hidden="false">
+<div class="testimonial-caption">
+<h3>"Process starts as soon as your clothes commodo diam libero vitae.</h3>
+<p>The automated process starts as soon as your clothes go into
+the machine. Duis cursus, mi quis viverra ornare, eros dolor
+interdum nulla, ut commodo diam libero vitae erat. Aenean
+faucibus nibh et justo cursus id rutrum lorem imperdiet.</p>
+</div>
+
+<div class="testimonial-founder d-flex align-items-center">
+<div class="founder-text">
+<p>- Robert Brown <span>CEO of Colorlib</span></p>
+</div>
+</div>
+</div><div class="single-testimonial position-relative slick-slide slick-cloned" tabindex="-1" style="width: 670px;" data-slick-index="2" aria-hidden="true">
+<div class="testimonial-caption">
+<h3>"Process starts as soon as your clothes commodo diam libero vitae.</h3>
+<p>The automated process starts as soon as your clothes go into
+the machine. Duis cursus, mi quis viverra ornare, eros dolor
+interdum nulla, ut commodo diam libero vitae erat. Aenean
+faucibus nibh et justo cursus id rutrum lorem imperdiet.</p>
+</div>
+
+<div class="testimonial-founder d-flex align-items-center">
+<div class="founder-text">
+<p>- Robert Brown <span>CEO of Colorlib</span></p>
+</div>
+</div>
+</div><div class="single-testimonial position-relative slick-slide slick-cloned" tabindex="-1" style="width: 670px;" data-slick-index="3" aria-hidden="true">
+<div class="testimonial-caption">
+<h3>"Process starts as soon as your clothes commodo diam libero vitae.</h3>
+<p>The automated process starts as soon as your clothes go into
+the machine. Duis cursus, mi quis viverra ornare, eros dolor
+interdum nulla, ut commodo diam libero vitae erat. Aenean
+faucibus nibh et justo cursus id rutrum lorem imperdiet.</p>
+</div>
+
+<div class="testimonial-founder d-flex align-items-center">
+<div class="founder-text">
+<p>- Robert Brown <span>CEO of Colorlib</span></p>
+</div>
+</div>
+</div></div></div></div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="home-blog-area section-padding">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-8 col-md-10 col-sm-11">
+
+<div class="section-tittle text-center mb-60">
+<h2>Our latest blog</h2>
+</div>
+</div>
+</div>
+<div class="blog-active slick-initialized slick-slider"><button type="button" class="slick-prev slick-arrow" style="display: block;"><i class="ti-arrow-top-left"></i></button>
+
+
+
+
+<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4290px; transform: translate3d(-1950px, 0px, 0px);"><div class="col-lg-4 col-md-6 col-sm-6 slick-slide slick-cloned" tabindex="-1" style="width: 390px;" data-slick-index="-3" aria-hidden="true">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1"><img src="./Startup _ Template_files/xblog2.jpg.pagespeed.ic.GhS7bSWfX3.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-6 col-sm-6 slick-slide slick-cloned" tabindex="-1" style="width: 390px;" data-slick-index="-2" aria-hidden="true">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1"><img src="./Startup _ Template_files/xblog3.jpg.pagespeed.ic.1xdCSz-YtN.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-6 col-sm-6 slick-slide slick-cloned" tabindex="-1" style="width: 390px;" data-slick-index="-1" aria-hidden="true">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1"><img src="./Startup _ Template_files/xblog2.jpg.pagespeed.ic.GhS7bSWfX3.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-6 col-sm-6 slick-slide" tabindex="-1" style="width: 390px;" data-slick-index="0" aria-hidden="true">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1"><img src="./Startup _ Template_files/xblog1.jpg.pagespeed.ic.uwBTyfL9XH.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-6 col-sm-6 slick-slide" tabindex="-1" style="width: 390px;" data-slick-index="1" aria-hidden="true">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1"><img src="./Startup _ Template_files/xblog2.jpg.pagespeed.ic.GhS7bSWfX3.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-6 col-sm-6 slick-slide slick-current slick-active" tabindex="0" style="width: 390px;" data-slick-index="2" aria-hidden="false">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="0"><img src="./Startup _ Template_files/xblog3.jpg.pagespeed.ic.1xdCSz-YtN.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="0">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-6 col-sm-6 slick-slide slick-active" tabindex="0" style="width: 390px;" data-slick-index="3" aria-hidden="false">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="0"><img src="./Startup _ Template_files/xblog2.jpg.pagespeed.ic.GhS7bSWfX3.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="0">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-6 col-sm-6 slick-slide slick-cloned slick-active" tabindex="-1" style="width: 390px;" data-slick-index="4" aria-hidden="false">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="0"><img src="./Startup _ Template_files/xblog1.jpg.pagespeed.ic.uwBTyfL9XH.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="0">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-6 col-sm-6 slick-slide slick-cloned" tabindex="-1" style="width: 390px;" data-slick-index="5" aria-hidden="true">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1"><img src="./Startup _ Template_files/xblog2.jpg.pagespeed.ic.GhS7bSWfX3.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-6 col-sm-6 slick-slide slick-cloned" tabindex="-1" style="width: 390px;" data-slick-index="6" aria-hidden="true">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1"><img src="./Startup _ Template_files/xblog3.jpg.pagespeed.ic.1xdCSz-YtN.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-6 col-sm-6 slick-slide slick-cloned" tabindex="-1" style="width: 390px;" data-slick-index="7" aria-hidden="true">
+<div class="properties">
+<div class="properties__card">
+<div class="properties__img">
+<a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1"><img src="./Startup _ Template_files/xblog2.jpg.pagespeed.ic.GhS7bSWfX3.webp" alt=""></a>
+<div class="img-text">
+<span class="open">Urban</span>
+</div>
+</div>
+<div class="properties__caption">
+<h3><a href="https://preview.colorlib.com/theme/thestartup/#" tabindex="-1">Starts the automated process.</a></h3>
+<p>The automated process starts as soon as your clothes go into the machine.</p>
+</div>
+</div>
+</div>
+</div></div></div><button type="button" class="slick-next slick-arrow" style="display: block;"><i class="ti-arrow-top-right"></i></button></div>
+</div>
+</section>
+
+</main>
+<footer>
+<div class="footer-wrapper black-bg">
+<div class="footer-area footer-padding">
+<div class="container">
+<div class="row justify-content-between">
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+<div class="single-footer-caption mb-50">
+<div class="single-footer-caption mb-30">
+
+<div class="footer-logo mb-35">
+<a href="https://preview.colorlib.com/theme/thestartup/index.html"><img src="./Startup _ Template_files/xlogo2_footer.png.pagespeed.ic.0KMkyD0fUy.webp" alt=""></a>
+</div>
+<div class="footer-tittle">
+<div class="footer-pera">
+<p>Land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning laboris nisi ufsit aliquip.</p>
+</div>
+
+<div class="footer-social">
+<a href="https://preview.colorlib.com/theme/thestartup/#"><i class="fab fa-twitter-square"></i></a>
+<a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-square"></i></a>
+<a href="https://preview.colorlib.com/theme/thestartup/#"><i class="fab fa-linkedin"></i></a>
+<a href="https://preview.colorlib.com/theme/thestartup/#"><i class="fab fa-pinterest-square"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+<div class="single-footer-caption mb-50">
+<div class="footer-tittle">
+<h4>Navigation</h4>
+<ul>
+<li><a href="https://preview.colorlib.com/theme/thestartup/#">Home</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/#">About</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/#">Services</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/#">Blog</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/#">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-8 col-sm-6">
+<div class="single-footer-caption mb-50">
+<div class="footer-tittle">
+<h4>Services</h4>
+<ul>
+<li><a href="https://preview.colorlib.com/theme/thestartup/#">Blackforest</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/#">Bodhubon</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/#">Rongdhonu</a></li>
+<li><a href="https://preview.colorlib.com/theme/thestartup/#">Meghrong</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-4 col-sm-8">
+<div class="single-footer-caption mb-50">
+<div class="footer-tittle mb-20">
+<h4>Contact Us</h4>
+<p>76/A, Green Lane, Dhanmondi, NYC</p>
+</div>
+<ul class="mb-20">
+<li class="number"><a href="https://preview.colorlib.com/theme/thestartup/#">+10 (78) 738-9083</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer-bottom-area">
+<div class="container">
+<div class="footer-border">
+<div class="row">
+<div class="col-xl-12 ">
+<div class="footer-copy-right text-center">
+<p>Copyright ©<script type="text/javascript" async="" src="./Startup _ Template_files/analytics.js.download"></script><script>document.write(new Date().getFullYear());</script>2021 All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank" rel="nofollow noopener">Colorlib</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<div id="back-top" style="display: block;">
+<a title="Go to Top" href="https://preview.colorlib.com/theme/thestartup/#"> <i class="fas fa-level-up-alt"></i></a>
+</div>
+
+
+<script src="./Startup _ Template_files/modernizr-3.5.0.min.js.download"></script>
+<script src="./Startup _ Template_files/jquery-1.12.4.min.js.download"></script>
+<script src="./Startup _ Template_files/popper.min.js+bootstrap.min.js.pagespeed.jc.K7XtoWqoIk.js.download"></script><script>eval(mod_pagespeed_Ih3uWEv4RW);</script>
+<script>eval(mod_pagespeed_HKyCYFgR6i);</script>
+
+<script src="./Startup _ Template_files/owl.carousel.min.js+slick.min.js.pagespeed.jc.YfLDDl8-L0.js.download"></script><script>eval(mod_pagespeed_twwhuNveHi);</script>
+<script>eval(mod_pagespeed_5tJ3I4mrQm);</script>
+
+<script src="./Startup _ Template_files/wow.min.js+jquery.magnific-popup.js+jquery.slicknav.min.js+jquery.counterup.min.js+waypoints.min.js+jquery.nice-select.min.js+contact.js.pagespeed.jc.Ucs-uCttfS.js.download"></script><script>eval(mod_pagespeed_Xzm9l5BB5E);</script>
+<script>eval(mod_pagespeed_ytlkKgZHkl);</script>
+<script>eval(mod_pagespeed_4Yh8B4EjtO);</script>
+
+<script>eval(mod_pagespeed_lNGowciQbQ);</script>
+<script>eval(mod_pagespeed_KXRvhSVmZ1);</script>
+<script>eval(mod_pagespeed_PWeOiS7oe9);</script>
+
+<script>eval(mod_pagespeed_6VznOHpPVy);</script>
+<script src="./Startup _ Template_files/jquery.form.js+jquery.validate.min.js+mail-script.js+jquery.ajaxchimp.min.js+plugins.js+main.js.pagespeed.jc.2mcDZGkPMg.js.download"></script><script>eval(mod_pagespeed_CKdnj$vv2L);</script>
+<script>eval(mod_pagespeed_CJ0Sdk0ru2);</script>
+<script>eval(mod_pagespeed_pIno8tfCG6);</script>
+<script>eval(mod_pagespeed_sb4iq8byMv);</script>
+
+<script>eval(mod_pagespeed_eOHzFu1rqR);</script>
+<script>eval(mod_pagespeed_koHl1gOetD);</script>
+
+<script async="" src="./Startup _ Template_files/js"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23581568-13');
+  </script>
+<script defer="" src="./Startup _ Template_files/beacon.min.js.download" data-cf-beacon="{&quot;rayId&quot;:&quot;6abec8e7c38b6edd&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.10.0&quot;,&quot;si&quot;:100}"></script>
+<script defer="" src="./Startup _ Template_files/beacon.min.js.download" data-cf-beacon="{&quot;rayId&quot;:&quot;6abec8e77d116edd&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.10.0&quot;,&quot;si&quot;:100}"></script>
+
+</body></html>
