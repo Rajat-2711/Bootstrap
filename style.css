@@ -1,6 +1,26 @@
-body{
+ body{
     overflow-x: hidden;
+    margin-top: 5px;
 }
+.header {
+    padding: 10px 16px;
+}
+.content {
+    padding: 16px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+.sticky:hover{
+    box-shadow: 0px 15px 25px rgb(168 96 0/10%);
+}
+.sticky + .content {
+    padding-top: 102px;
+}      
 figure{
     margin: 0px;
 }
@@ -12,22 +32,28 @@ figure{
     margin-left: auto;
     max-width: 1200px;
 }
-.header{
-   padding: 15px 25px;
-}
 .header .logo img{
     width: 120px;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 .nav{
     margin: 40px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
 }
 .header .navbar{
     padding: 0px;
 }
+.container-fluid{
+    padding-right: 0px;
+}
 .banner{
     background: #FFDDB5;
+}
+.navbar-nav{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-right: 22px;
 }
 .header .nav-item .nav-link{
     font-size: 16px;
@@ -36,7 +62,7 @@ figure{
     font-weight: 700;
     display: block;
     margin-top: 5px;
-    margin-right: 35px;
+    margin-right: 20px;
 }
 .header .nav-item .nav-link2{
     color: #fff!important;
@@ -45,6 +71,8 @@ figure{
     padding: 10px 24px!important;
     display: inline-block!important;
     border: none;
+    margin-right: 10px;
+    padding-right: 300px;
     border-radius: 4px;
     text-transform: capitalize;
     cursor: pointer;
@@ -56,6 +84,10 @@ figure{
 .banner .content{
     margin-top: 55px;
     margin-left: 65px;
+    margin-right: 0px;
+}
+.banner .col-sm-6{
+    padding: 0px;
 }
 .banner .content h6{
     color:#ff9100;
@@ -100,7 +132,7 @@ figure{
     font-weight: 500 !important;
     border-radius: 5px;
     text-decoration: none;
-    padding: 20px 43px;
+    padding: 15px 39px;
     margin-top: 15px;
     cursor: pointer;
     overflow: hidden;
@@ -123,7 +155,7 @@ figure{
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    margin-top: 110px;
+    margin-top: 105px;
     word-spacing: 1px;
     margin-left: 70px;
     font-family: 'Roboto', sans-serif;
@@ -209,21 +241,37 @@ figure{
     border:1px solid #ddd;
     padding: 30px;
 }
+.custom-content-img-box:hover{
+    box-shadow: 0px 15px 25px rgb(168 96 0/10%);
+}
 .custom-three-layout .custom-content-img-box a{
     font-size: 16px;
     font-weight: 400;
     color: #000;
+    padding-left: 0px;
+    padding-right: 0px;
     text-transform: capitalize;
     outline: medium none;
     padding-bottom: 8px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
     border-bottom: 2px solid #ff9100;
     background-color: transparent;
 }
+.custom-three-layout .btn{
+    border-radius: none;
+    border: none;
+}
 .custom-three-layout .custom-content-img-box a:hover{
+    transition: all .2s ease-out 0s;
     color:#ff9100;
 }
 .custom-two-layout{
     margin-top: 135px;
+}
+.custom-two-layout .col-sm-7{
+    height: 567px;
 }
 .custom-two-layout figure img{
     width: 720px;
@@ -314,6 +362,7 @@ figure{
 .car{
     background: #ff9100;
     height: 550px;
+
 }
 .car .pricing-car-area{
     padding-top: 0px;
@@ -416,6 +465,9 @@ figure{
     padding-bottom: 26px;
     margin-bottom: 25px;
 }
+.single-card:hover{
+    box-shadow: 0px 15px 25px rgb(168 96 0/10%);
+}
 .single-card .middle{
     color: #7977a2;
 }
@@ -432,7 +484,6 @@ figure{
     transition: color .4s linear;
     position: relative;
     padding-bottom: 10px;
-    border-radius: 5px;
     color: #fff !important;
 }
 .bottom .btn:hover{
@@ -461,20 +512,26 @@ figure{
 .project-content .btn-link-collapsed{
     color: black;
 }
-.card{
+.project-content .card-link a{
+    margin-left: 500px;
+}
+.project-content .card{
     margin-left: -18px;
     display: block;
-    border: white;
     border-bottom: 1px solid #efefef!important;
     width: 50%;
+    border-radius: 0px;
+    background-color:white;
+    border: none;
 }
 .card-header i{
     font-size: 15px;
-    color: #010a44;
+
     font-weight: 800;
 }
-.card-header{
-    background-color: white;
+.card-header i{
+    font-size: 16px;
+    color: #ff9100;
 }
 .card-header i:hover{
     color: #FF9100;
@@ -482,10 +539,11 @@ figure{
 .card .card-header a{
     background-color: none;
     color:#212529;
-    font-size: 20x !important;
+    font-size: 50x !important;
     text-decoration: none;
     font-weight: 500 !important;
     margin-top: 15px;
+    display: block;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .card-header a:hover{
@@ -562,20 +620,25 @@ figure{
     line-height: 1.4;
     color: #000;
 }
-.content-slide{
-    margin-top: -20px;
-    position: relative;
-    margin-left: 150px;
-    margin-right: 130px;
-    margin-bottom: 30px;
-}
-.content-slide img{
+.carousel-item img{
+    margin-top: 80px;
+    /* margin-left:50px; */
     width: 100%;
-    height: 255px;
+    height: 100%;
 }
-.content-slide .img-text{
+.content-title{
+    height: 570px;
+}
+.carousel-item .img-text{
     position:absolute;
     top: 35px;
+}
+.context-wrapper{
+    margin-left: -150px;
+}
+.img-text{
+    margin-top: 80px;
+    /* margin-left: 45px; */
 }
 .img-text .open{
     background-color: #ff9100;
@@ -587,7 +650,7 @@ figure{
     font-size: 13px;
     margin-left: 15px;
 }
-.con-wrapper .context-wrapper a{
+.context-wrapper a{
     margin-left: 150px;
     font-size: 24px;
     width: 120%;
@@ -608,23 +671,17 @@ figure{
     display: block;
     color: #000;
 }
-.con-wrapper .context-wrapping a{
-    margin-left: -40px;
+.context-wrapper h3{
     font-size: 24px;
     font-weight: 500;
-    font-family: 'Josefin Sans',sans-serif;
-    margin-top: 0px;
-    line-height: 1.2;
-    display: block;
-    color: #000;
-
-}
-.con-wrapper h3{
-    font-size: 24px;
+    margin-bottom: 19px;
     margin-left: 0px;
+    margin-top: 30px;
     text-decoration: underline;
+    line-height: 1.2;
+    font-family: 'Josefin Sans',sans-serif;
 }
-.con-wrapper p{
+.context-wrapper p{
     font-size: 16px;
     margin-bottom: 15px;
     line-height: 1.4;
@@ -633,18 +690,10 @@ figure{
     margin-top: 0px;
     display: block; 
 }
-.con-wrapper .context-para{
+.context-wrapper .context-para{
     margin-left: 148px;
 }
-.con-wrapper .context-paar{
-    width: 370px;
-    margin-left: 50px;
-}
-.con-wrapper .context-paara{
-    width: 370px;
-    margin-left: -40px;
-}
-.con-wrapper a:hover{
+.context-wrapper h3:hover{
     color:#ff9100;
 }
 .black-bg{
@@ -668,6 +717,8 @@ footer .row{
 }
 footer .container{
     max-width: 1200px;
+    max-height: 225px;
+    margin-top: 10px;
 }
 footer .container .mb-50{
     margin-bottom: 50px;
@@ -692,13 +743,13 @@ footer .footer-title h4{
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    font-weight: 700    ;
+    font-weight: 700;
 }
 .footer-title p{
     font-size: 15px;
     color: #949494;
     margin-top: 40px;
-    margin-left: 35px;
+    margin-left: 46px;
     font-family: 'Roboto', sans-serif;
 }
 .footer-title .end{
@@ -729,9 +780,10 @@ footer .footer-title h4{
 .footer-pera a{
     display: inline-block;
     text-align: center;
-    padding: 9px;
+    padding: 1px;
     position: relative;
     color: white;
+    margin-left: 10px;
     font-size: 25px;
     margin-right: 15px;
     transition: all .4s ease-out 0s;
@@ -764,4 +816,120 @@ font-family: 'Roboto', sans-serif;
 }
 .footer-bottom-area{
     width: 100%;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:#ff9100;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+#myBtn:hover{
+    background-color:aq;
+}  
+
+
+/* media css */
+
+
+@media(max-width:1366px){
+    .container-fluid{
+        width: 100%;
+    }
+    .header .nav-link2{
+        font-size: 15px  !important;
+        font-weight: 700 !important;
+        padding: 13px 24px!important;
+        margin-top: 0px;
+        display: inline-block !important;
+        border: none;
+        margin-right: 10px;
+        text-transform: capitalize;
+        cursor: pointer;
+        background-image: linear-gradient(to left,#ff9100,#df7e00,#ff9100);
+        background-position: right;
+        background-size: 200%;
+    }
+    .banner .banner-image{
+        width: 111%;
+    }
+    .banner .content h1{
+        font-size: 55px;
+        font-weight: 700;
+        color: #000;
+    }
+    .section-header h2{
+        font-size: 45px;
+    }
+    .project-content h2{
+        font-size: 30px;
+    }
+    .project-content .card{
+        width: 65%;
+    }
+    footer img{
+        margin-left: 90px;
+    }
+    footer .footer-pera{
+        margin-left: 90px;
+    }
+    footer .footer-pera p{
+        font-size: 13px;
+    }
+    footer .footer-title .end{
+        margin-left: 42px;
+    }
+}
+@media(max-width:1199px){
+.header .nav-link2{
+    font-size: 15px  !important;
+    font-weight: 700 !important;
+    padding: 13px 24px!important;
+    margin-top: 0px;
+    display: inline-block !important;
+    border: none;
+    margin-right: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-image: linear-gradient(to left,#ff9100,#df7e00,#ff9100);
+    background-position: right;
+    background-size: 200%;
+}
+.banner .banner-image{
+    width: 111%;
+}
+.banner .content h1{
+    font-size: 55px;
+    font-weight: 700;
+    color:#000;
+}
+.section-header h2{
+    font-size: 45px;
+}
+.project-content h2{
+    font-size: 30px;
+}
+.project-content .card{
+    width: 65%;
+}
+footer img{
+    margin-left: 90px;
+}
+footer .footer-pera{
+    margin-left: 90px;
+}
+footer .footer-pera p{
+    font-size: 13px;
+}
+footer .footer-title .end{
+    margin-left: 42px;
+}
 }

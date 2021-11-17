@@ -12,12 +12,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-    <div class="header">
+    <div class="header" id="myHeader">
         <div class="container-fluid">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
@@ -53,6 +61,20 @@
                 </div>
             </div>
         </div>
+        <script>
+            window.onscroll = function () { myFunction() };
+
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
     </div>
     <div class="banner">
         <div class="container-fluid">
@@ -64,7 +86,8 @@
                         </h6>
                         <h1>
                             We give the power back to the user</h1>
-                        <p> Content marketing is nothing but offering users value. It is not just about traffic minion
+                        <p> Content marketing is nothing but offering users value. <br> It is not just about traffic
+                            minion
                             customers.
                         </p>
                         <a class="btn2">Explore us</a>
@@ -270,7 +293,8 @@
                                 </div>
                                 <div id="collapseOne" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
-                                        The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare.
+                                        The automated process starts as soon as your clothes go into the machine. Duis
+                                        cursus, mi quis viverra ornare.
                                     </div>
                                 </div>
                             </div>
@@ -283,7 +307,8 @@
                                 </div>
                                 <div id="collapseTwo" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
-                                        The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare.
+                                        The automated process starts as soon as your clothes go into the machine. Duis
+                                        cursus, mi quis viverra ornare.
                                     </div>
                                 </div>
                             </div>
@@ -296,7 +321,8 @@
                                 </div>
                                 <div id="collapseThree" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
-                                        The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare.                                    
+                                        The automated process starts as soon as your clothes go into the machine. Duis
+                                        cursus, mi quis viverra ornare.
                                     </div>
                                 </div>
                             </div>
@@ -309,8 +335,9 @@
                                 </div>
                                 <div id="collapseThree" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
-                                        The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare.                                    
-                                </div>
+                                        The automated process starts as soon as your clothes go into the machine. Duis
+                                        cursus, mi quis viverra ornare.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -329,119 +356,273 @@
             <div class="row justify-content-end">
                 <div class="col-xl-7 col-xl-8 col-md-11">
                     <div class="test-content">
-                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <h3>"Process starts as soon as your clothes commondo diam libero vitae.</h3>
-                                        <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi    quis vivvera ornare, eros dolor interdum nulla, ut commondo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.</p>
-                                        <p class="rob">-Robert Brown <span class="ceo">CEO of colorlib</span></p>
-                                    </div>
-                                        <div class="carousel-item">
-                                            <h3>"Process starts as soon as your clothes commondo diam libero vitae.</h3>
-                                            <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis vivvera ornare, eros dolor interdum nulla, ut commondo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
-                                            </p>
-                                            <p class="rob">-Robert Brown <span class="ceo">CEO of colorlib</span></p>
-                                        </div>
-                                   
-                                        <div class="carousel-item">
-                                            <h3>"Process starts as soon as your clothes commondo diam libero vitae.</h3>
-                                            <p>The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis vivvera ornare, eros dolor interdum nulla, ut commondo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
-                                            </p>
-                                            <p class="rob">-Robert Brown <span class="ceo">CEO of colorlib</span></p>
-                                        </div>
-                                    </div>
-                                </div>  
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="content-title">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                     <div class="middle-title text-center mb-60">
-                        <h3>Our latest blog</h3>
-                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="content-slide">
-            <div class="row justify-content-center">
-                <div class="col-md-4">
-                       <div class="img_wrapper">
-                    <a href="#" tabindex="-1">
-                        <figure>
-                            <img src="middle.webp" alt="m1">
-                            
-                        </figure>
-                    </a>
-                    <div class="img-text">
-                        <span class="open">Urban</span>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <a href="#" tabindex="-1">
-                    <figure>
-                    <img src="middle2.webp" alt="m2">
-                    </figure>
-                </a>
-                    <div class="img-text">
-                        <span class="open">Urban</span>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <a href="#" tabindex="-1">
-                    <figure>
-                    <img src="middle3.webp" alt="m3">
-                    </figure>
-                </a>
-                <div class="img-text">
-                    <span class="open">Urban</span>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="con-wrapper">
-            <div class="row justify-text-center">
-                <div class="col-md-4">
-                    <div class="context-wrapper">
-                    <a href="#" tabindex="0"> <h3>Starts the automated process.</h3></a>
-                    <p class="context-para">The automated process started as soon as your clothes go into the machine.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="context-wrap">
-                    <a href="#" tabindex="0"> <h3>Starts the automated process. </h3></a>
-                    <p class="context-paar">The automated process started as soon as your clothes go into the machine.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="context-wrapping">
-                    <a href="#" tabindex="0"><h3>Starts the automated process.</h3>
-                    </a> 
-                    <p class="context-paara">The automated process started as soon as your clothes go into the machine.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <h3>"Process starts as soon as your clothes commondo diam libero vitae.</h3>
+                                    <p>The automated process starts as soon as your clothes go into the machine. Duis
+                                        cursus, mi quis vivvera ornare, eros dolor interdum nulla, ut commondo diam
+                                        libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+                                        imperdiet.</p>
+                                    <p class="rob">-Robert Brown <span class="ceo">CEO of colorlib</span></p>
+                                </div>
+                                <div class="carousel-item">
+                                    <h3>"Process starts as soon as your clothes commondo diam libero vitae.</h3>
+                                    <p>The automated process starts as soon as your clothes go into the machine. Duis
+                                        cursus, mi quis vivvera ornare, eros dolor interdum nulla, ut commondo diam
+                                        libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+                                        imperdiet.
+                                    </p>
+                                    <p class="rob">-Robert Brown <span class="ceo">CEO of colorlib</span></p>
+                                </div>
 
-        <footer>
-            <div class="footer-wrapper black-bg">
-                <div class="footer-area footer-padding">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-                                <div class="single-footer-caption mb-50">
-                                    <div class="single-footer-caption mb-40">
-                                        <div class="footer-logo mb-45">
-                                            <a href="project.html">
+                                <div class="carousel-item">
+                                    <h3>"Process starts as soon as your clothes commondo diam libero vitae.</h3>
+                                    <p>The automated process starts as soon as your clothes go into the machine. Duis
+                                        cursus, mi quis vivvera ornare, eros dolor interdum nulla, ut commondo diam
+                                        libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+                                        imperdiet.
+                                    </p>
+                                    <p class="rob">-Robert Brown <span class="ceo">CEO of colorlib</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-title">
+        <div class="container-small">
+            <div class="row justify-text-center">
+                <div class="col-lg-12">
+                    <div class="middle-title text-center mb-60">
+                        <h3>Our latest blog</h3>
+                    </div>
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row justify-content-center ">
+                                    <div class="col-md-4">
+                                        <div class="img_wrapper">
+                                            <a href="#" tabindex="-1">
                                                 <figure>
-                                                    <img src="footer.webp" alt="foot">
+                                                    <img src="middle.webp" alt="m1">
                                                 </figure>
                                             </a>
+                                            <div class="img-text">
+                                                <span class="open">Urban</span>
+                                            </div>
+                                        </div>
+                                        <div class="context-wrapper">
+                                            <a href="#" tabindex="0">
+                                                <h3>Starts the automated process.</h3>
+                                            </a>
+                                            <p class="context-para">The automated process started as soon as your
+                                                clothes go into the machine.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="img_wrapper">
+                                            <a href="#" tabindex="-1">
+                                                <figure>
+                                                    <img src="middle2.webp" alt="m1">
+                                                </figure>
+                                            </a>
+                                            <div class="img-text">
+                                                <span class="open">Urban</span>
+                                            </div>
+                                        </div>
+                                        <div class="context-wrapper">
+                                            <a href="#" tabindex="0">
+                                                <h3>Starts the automated process.</h3>
+                                            </a>
+                                            <p class="context-para">The automated process started as soon as your
+                                                clothes go into the machine.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="img_wrapper">
+                                            <a href="#" tabindex="-1">
+                                                <figure>
+                                                    <img src="middle3.webp" alt="m1">
+                                                </figure>
+                                            </a>
+                                            <div class="img-text">
+                                                <span class="open">Urban</span>
+                                            </div>
+                                        </div>
+                                        <div class="context-wrapper">
+                                            <a href="#" tabindex="0">
+                                                <h3>Starts the automated process.</h3>
+                                            </a>
+                                            <p class="context-para">The automated process started as soon as your
+                                                clothes go into the machine.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center ">
+                                    <div class="col-md-4">
+                                        <div class="img_wrapper">
+                                            <a href="#" tabindex="-1">
+                                                <figure>
+                                                    <img src="middle.webp" alt="m1">
+                                                </figure>
+                                            </a>
+                                            <div class="img-text">
+                                                <span class="open">Urban</span>
+                                            </div>
+                                        </div>
+                                        <div class="context-wrapper">
+                                            <a href="#" tabindex="0">
+                                                <h3>Starts the automated process.</h3>
+                                            </a>
+                                            <p class="context-para">The automated process started as soon as your
+                                                clothes go into the machine.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="img_wrapper">
+                                            <a href="#" tabindex="-1">
+                                                <figure>
+                                                    <img src="middle2.webp" alt="m1">
+                                                </figure>
+                                            </a>
+                                            <div class="img-text">
+                                                <span class="open">Urban</span>
+                                            </div>
+                                        </div>
+                                        <div class="context-wrapper">
+                                            <a href="#" tabindex="0">
+                                                <h3>Starts the automated process.</h3>
+                                            </a>
+                                            <p class="context-para">The automated process started as soon as your
+                                                clothes go into the machine.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="img_wrapper">
+                                            <a href="#" tabindex="-1">
+                                                <figure>
+                                                    <img src="middle3.webp" alt="m1">
+                                                </figure>
+                                            </a>
+                                            <div class="img-text">
+                                                <span class="open">Urban</span>
+                                            </div>
+                                        </div>
+                                        <div class="context-wrapper">
+                                            <a href="#" tabindex="0">
+                                                <h3>Starts the automated process.</h3>
+                                            </a>
+                                            <p class="context-para">The automated process started as soon as your
+                                                clothes go into the machine.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center ">
+                                    <div class="col-md-4">
+                                        <div class="img_wrapper">
+                                            <a href="#" tabindex="-1">
+                                                <figure>
+                                                    <img src="middle.webp" alt="m1">
+                                                </figure>
+                                            </a>
+                                            <div class="img-text">
+                                                <span class="open">Urban</span>
+                                            </div>
+                                        </div>
+                                        <div class="context-wrapper">
+                                            <a href="#" tabindex="0">
+                                                <h3>Starts the automated process.</h3>
+                                            </a>
+                                            <p class="context-para">The automated process started as soon as your
+                                                clothes go into the machine.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="img_wrapper">
+                                            <a href="#" tabindex="-1">
+                                                <figure>
+                                                    <img src="middle2.webp" alt="m1">
+                                                </figure>
+                                            </a>
+                                            <div class="img-text">
+                                                <span class="open">Urban</span>
+                                            </div>
+                                        </div>
+                                        <div class="context-wrapper">
+                                            <a href="#" tabindex="0">
+                                                <h3>Starts the automated process.</h3>
+                                            </a>
+                                            <p class="context-para">The automated process started as soon as your
+                                                clothes go into the machine.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="img_wrapper">
+                                            <a href="#" tabindex="-1">
+                                                <figure>
+                                                    <img src="middle3.webp" alt="m1">
+                                                </figure>
+                                            </a>
+                                            <div class="img-text">
+                                                <span class="open">Urban</span>
+                                            </div>
+                                        </div>
+                                        <div class="context-wrapper">
+                                            <a href="#" tabindex="0">
+                                                <h3>Starts the automated process.</h3>
+                                            </a>
+                                            <p class="context-para">The automated process started as soon as your
+                                                clothes go into the machine.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-wrapper black-bg">
+            <div class="footer-area footer-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-40">
+                                    <div class="footer-logo mb-45">
+                                        <a href="project.html">
+                                            <figure>
+                                                <img src="footer.webp" alt="foot">
+                                            </figure>
+                                        </a>
                                         <div class="footer-pera">
-                                            <p>Land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning laboris nisi ufsit aliquip.</p>
+                                            <p>Land behold it created good saw after she'd Our set living. Signs
+                                                midst dominion creepeth morning laboris nisi ufsit aliquip.</p>
                                             <a href="#">
                                                 <i class="fa fa-facebook-square" aria-hidden="true"></i>
                                             </a>
@@ -455,12 +636,12 @@
                                                 <i class="fa fa-pinterest-square" aria-hidden="true"></i>
                                             </a>
                                         </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
-                                <div class="single-footer-caption mb-50">
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
                                 <div class="footer-title">
                                     <h4>Navigation</h4>
                                     <ul>
@@ -483,56 +664,62 @@
                                 </div>
                             </div>
                         </div>
-                            <div class="col-xl-2 col-lg-2 col-md-8 col-sm-6">
-                                <div class="single-footer-caption mb-50">
-                                    <div class="footer-title">
-                                        <h4>Services</h4>
-                                        <ul>
-                                            <li>
-                                                <a href="#">Blackforest</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Bodhubon</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Rongdonu</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Meghrong</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                        <div class="col-xl-2 col-lg-2 col-md-8 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-title">
+                                    <h4>Services</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Blackforest</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Bodhubon</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Rongdonu</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Meghrong</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8">
-                                <div class="single-footer-caption mb-50">
-                                    <div class="footer-title mb-20">
-                                        <h4>Contact Us</h4>
-                                        <p>76/A, Green Lane, Dhanmondi, NYC</p>
-                                        <a class="end" href="#">+10 (78) 738-9083</a>
-                    </div>
-                </div>
-            </div>
-                    <div class="footer-bottom-area">
-                        <div class="col-xl-12"
-                            <div class="footer-border">
-                                <div class="row">>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-title mb-20">
+                                    <h4>Contact Us</h4>
+                                    <p>76/A, Green Lane, Dhanmondi, NYC</p>
+                                    <a class="end" href="#">+10 (78) 738-9083</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom-area">
+                            <div class="col-xl-12">
+                                <div class="footer-border">
+                                    <div class="row">>
                                         <div class="footer-copy-right">
-                                           <p>Copyright ©2021 All rights reserved | This template is made with 
-                                            <i class="fa fa-heart color-danger" aria-hidden="true"></i>
-                                            by <a href="#" target="_blank">Colorlib</a>
-                                        </p> 
+                                            <p>Copyright ©2021 All rights reserved | This template is made with
+                                                <i class="fa fa-heart color-danger" aria-hidden="true"></i>
+                                                by <a href="#" target="_blank">Colorlib</a>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-        </footer>   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+    <script>
+
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
