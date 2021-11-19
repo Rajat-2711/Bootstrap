@@ -946,7 +946,7 @@ footer .footer-title .end{
     .banner .container-fluid{
         width: 100%;
     }
-    .justify-content-end{
+    .navbar-wrapper{
         margin-left: 550px;
     }
     .custom-two-layout-content{
@@ -975,8 +975,8 @@ footer .footer-title .end{
     .banner .container-fluid{
         width: 100%;
     }
-    .justify-content-end{
-        margin-left: 550px;
+    .navbar-wrapper{
+        margin-left:0px;
     }
     .custom-two-layout-content{
         margin-left: 77px;
@@ -1057,7 +1057,7 @@ footer .footer-title .end{
         margin-left: 0px;
     }
     .header .nav-item .nav-link2{
-        margin-right: 150px;
+        margin-right: 50px;
     }
 }
 @media(max-width:768px) {
@@ -1128,7 +1128,7 @@ footer .footer-title .end{
         margin-left: 0px;
     }
     .header .nav-item .nav-link2{
-        margin-right: 150px;
+        margin-right: 50px;
     }
 }
 
@@ -1232,7 +1232,7 @@ footer .footer-title .end{
         margin-top: 60px;
     }
     .project-caption .people {
-        margin-left: 418px;
+        margin-left: 0px;
         margin-top: -463px;
         height: 320px;
     }
@@ -1240,7 +1240,7 @@ footer .footer-title .end{
         width: 990px;
     }
     .test-content {
-        margin-left: 210px;
+        margin-left: 0px;
     }
     .content-title h3 {
         text-align: end;
@@ -1262,7 +1262,7 @@ footer .footer-title .end{
         width: 92%;
     }
     .banner .content {
-        margin-left: 72px;
+        margin-left: 0px;
     }
     .banner .content h6 {
         font-size: 21px;
@@ -1279,7 +1279,7 @@ footer .footer-title .end{
     .custom h2 {
         font-size: 57px;
         width: 100%;
-        margin-left: 165px;
+        margin-left: 16px;
     }
     .custom p {
         font-size: 20px;
@@ -1293,7 +1293,7 @@ footer .footer-title .end{
     }
     .custom-content-img-box {
         margin-bottom: 36px;
-        margin-left: 130px;
+        margin-left: 13px;
         width: 100%;
     }
     .custom-two-layout figure img {
@@ -1320,7 +1320,7 @@ footer .footer-title .end{
     }
     .single-card {
         width: 75%;
-        margin-left: 96px;
+        margin-left: 9px;
         background-color: aliceblue;
         margin-bottom: 50px;
     }
@@ -1329,7 +1329,7 @@ footer .footer-title .end{
         margin-top: 1360px;
     }
     .project-caption .people {
-        margin-left: 406px;
+        margin-left: 40px;
         margin-top: -815px;
         height: 344px;
     }
@@ -1344,6 +1344,19 @@ footer .footer-title .end{
     .test-content {
         margin-left: 189px;
     }
+    .content-title h3 {
+        /* text-align: end; */
+        text-align: -webkit-left;
+    }
+    footer .footer-pera p {
+        font-size: 25px;
+        }
+    footer img{
+        height: 40px;
+        }
+    .fa {
+        font-size: 40px;
+    }
 }
 @media(max-width:375px){
     .banner {
@@ -1353,7 +1366,7 @@ footer .footer-title .end{
         width: 92%;
     }
     .banner .content {
-        margin-left: 72px;
+        margin-left: 0px;
     }
     .banner .content h6 {
         font-size: 21px;
@@ -1370,7 +1383,7 @@ footer .footer-title .end{
     .custom h2 {
         font-size: 57px;
         width: 100%;
-        margin-left: 165px;
+        margin-left: 12px;
     }
     .custom p {
         font-size: 20px;
@@ -1384,7 +1397,7 @@ footer .footer-title .end{
     }
     .custom-content-img-box {
         margin-bottom: 36px;
-        margin-left: 130px;
+        margin-left: 30px;
         width: 100%;
     }
     .custom-two-layout figure::before {
@@ -1408,7 +1421,7 @@ footer .footer-title .end{
     }
     .single-card {
         width: 75%;
-        margin-left: 96px;
+        margin-left: 26px;
         background-color: aliceblue;
         margin-bottom: 50px;
     }
@@ -1417,7 +1430,7 @@ footer .footer-title .end{
         margin-top: 1360px;
     }
     .project-caption .people {
-        margin-left: 406px;
+        margin-left: 40px;
         margin-top: -815px;
         height: 344px;
     }
@@ -1430,6 +1443,15 @@ footer .footer-title .end{
         width: 1000px;
     }
     .test-content {
-        margin-left: 189px;
+        margin-left: 18px;
     }
+    footer .footer-pera p {
+    font-size: 25px;
+    }
+    .fa {
+        font-size: 40px;
+    }
+    footer img{
+        height: 40px;
+        }
 }
