@@ -337,7 +337,7 @@ figure{
     line-height: 1.4;
     margin-top: 0px;
 }
-.footer-titles p{
+footer .footer-titles p{
     padding-bottom: 22px;
     color: #1d2547;
     font-size: 16px;
@@ -346,7 +346,7 @@ figure{
     font-weight: normal;
     line-height: 1.4;
 }
-.footer-titles h2{
+footer .footer-titles h2{
     font-size: 16px;
     font-size: 45px;
     font-weight: 400;
@@ -610,7 +610,6 @@ figure{
     color: #5e5e5e;
 }
 .content-title{
-    height: 150px;
     margin-top: 120px;
 }
 .content-title h3{
@@ -625,9 +624,6 @@ figure{
     /* margin-left:50px; */
     width: 100%;
     height: 100%;
-}
-.content-title{
-    height: 570px;
 }
 .carousel-item .img-text{
     position:absolute;
@@ -745,14 +741,14 @@ footer .footer-title h4{
     color: #fff;
     font-weight: 700;
 }
-.footer-title p{
+.footer .footer-title p{
     font-size: 15px;
     color: #949494;
     margin-top: 40px;
     margin-left: 46px;
     font-family: 'Roboto', sans-serif;
 }
-.footer-title .end{
+.footer .footer-title .end{
     color:#ff9100;
     text-decoration: none;
     margin-top: 20px;
@@ -761,23 +757,23 @@ footer .footer-title h4{
     display: block;
     margin-left: 34px;
 }
-.footer-title ul{
+.footer .footer-title ul{
     margin-top: 50.8px;
     margin-left: 45px;
     line-height: 0.5;
 }
-.footer-title ul li{
+.footer .footer-title ul li{
     font-size: 16px;
     list-style-type: none;
     margin-left: -40px;
     margin-top: 30px;
 }
-.footer-title ul li a{
+.footer .footer-title ul li a{
     text-decoration: underline transparent;
     color:#949494;
     font-weight: 400;
 }
-.footer-pera a{
+.footer .footer-pera a{
     display: inline-block;
     text-align: center;
     padding: 1px;
@@ -788,33 +784,33 @@ footer .footer-title h4{
     margin-right: 15px;
     transition: all .4s ease-out 0s;
 }
-.footer-pera a:hover{
+.footer .footer-pera a:hover{
     color: #FF9100;
     top: -5px;
 }
-.footer-title ul li a:hover{
+.footer ul li a:hover{
     color:white;
     text-decoration: underline;
  }
-.footer-bottom-area a{
+.footer .footer-bottom-area a{
     color: #ff9100;
     text-decoration: none;
 }
-.footer-copy-right p{
+.footer .footer-copy-right p{
     color:#949494;
     font-size: 14px;
     font-weight: 400;
     line-height: 2;
 font-family: 'Roboto', sans-serif;
 }
-.footer-copy-right i{
+.footer .footer-copy-right i{
     color:#FF9100;
 }
-.footer-copy-right{
+.footer .footer-copy-right{
     width: 100%;
     text-align: center;
 }
-.footer-bottom-area{
+.footer .footer-bottom-area{
     width: 100%;
 }
 #myBtn {
@@ -841,22 +837,20 @@ font-family: 'Roboto', sans-serif;
 
 
 @media(max-width:1366px){
+    .body{
+        width: 105%;
+    }
     .container-fluid{
         width: 100%;
     }
-    .header .nav-link2{
-        font-size: 15px  !important;
-        font-weight: 700 !important;
-        padding: 13px 24px!important;
-        margin-top: 0px;
-        display: inline-block !important;
-        border: none;
-        margin-right: 10px;
-        text-transform: capitalize;
-        cursor: pointer;
-        background-image: linear-gradient(to left,#ff9100,#df7e00,#ff9100);
-        background-position: right;
-        background-size: 200%;
+    .custom-two-layout figure img{
+        height: 661px;
+    }
+    .custom-two-layout figure::before{
+        height: 661px;
+    }
+    .header .nav-item .nav-link,.header .nav-item .nav-link2{
+        font-size: 14px  !important;
     }
     .banner .banner-image{
         width: 111%;
@@ -881,6 +875,7 @@ font-family: 'Roboto', sans-serif;
     footer .footer-pera{
         margin-left: 90px;
     }
+ 
     footer .footer-pera p{
         font-size: 13px;
     }
@@ -889,20 +884,18 @@ font-family: 'Roboto', sans-serif;
     }
 }
 @media(max-width:1199px){
-.header .nav-link2{
-    font-size: 15px  !important;
-    font-weight: 700 !important;
-    padding: 13px 24px!important;
-    margin-top: 0px;
-    display: inline-block !important;
-    border: none;
-    margin-right: 10px;
-    text-transform: capitalize;
-    cursor: pointer;
-    background-image: linear-gradient(to left,#ff9100,#df7e00,#ff9100);
-    background-position: right;
-    background-size: 200%;
-}
+    .body{
+        width: 105%;
+    }
+    .header .nav-item .nav-link,.header .nav-item .nav-link2{
+        font-size: 14px  !important;
+    }
+        .custom-two-layout figure img{
+        height: 661px;
+    }
+    .custom-two-layout figure::before{
+        height: 661px;
+    }
 .banner .banner-image{
     width: 111%;
 }
@@ -932,4 +925,511 @@ footer .footer-pera p{
 footer .footer-title .end{
     margin-left: 42px;
 }
+}
+@media(max-width:1220px){
+    .header .nav-item .nav-link,.header .nav-item .nav-link2{
+        font-size: 14px  !important;
+    }
+}
+@media(max-width:1199px){
+    .header .nav-item .nav-link2 {
+        font-size: 16px !important;
+        width: 120px;
+        text-align: center;
+    }
+    .navbar-expand-sm .navbar-nav{
+        margin-left: 55px;
+    }
+    .banner-image img {
+        width: 115%;
+    }
+    .banner .container-fluid{
+        width: 100%;
+    }
+    .justify-content-end{
+        margin-left: 550px;
+    }
+    .custom-two-layout-content{
+        margin-left: 77px;
+    }
+    .project-caption .people{
+        margin-left: -64px;
+        margin-top: -7px;
+    }
+    .test-content{
+        margin-left: 446px;
+    }
+}
+@media(max-width:991px){
+    .header .nav-item .nav-link2 {
+        font-size: 16px !important;
+        width: 120px;
+        text-align: center;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link{
+        margin-left: 505px;
+    }
+    .banner-image img {
+        width:115%;
+    }
+    .banner .container-fluid{
+        width: 100%;
+    }
+    .justify-content-end{
+        margin-left: 550px;
+    }
+    .custom-two-layout-content{
+        margin-left: 77px;
+    }
+    .project-caption .people{
+        margin-left: -64px;
+        margin-top: -7px;
+    }
+    .test-content{
+        margin-left: 446px;
+    }
+}
+@media(max-width:991px) {
+    .banner .content{
+        margin-left: 12px;
+    }
+    .banner .content h1 {
+        font-size: 35px;
+    }
+    .banner .content p{
+        font-size: 16px;
+    }
+    .banner .content .btn2{
+        font-size: 16px !important;
+    }
+    .banner-image img {
+        width: 100%;
+        margin-left: -20px;
+        height: 496px;
+        margin-top: 0px;
+    }
+    .custom h2{
+        font-size: 31px;
+        margin-left: 67px;
+    }
+    .custom p{
+        font-size: 18px;
+        margin-top: 90px;
+    }
+    .custom-two-layout figure img{
+        width: 501px;
+    }
+    .custom-two-layout-content h2{
+        font-size: 28px;
+    } 
+    .about-more p{
+        font-size: 16px;
+    }
+    .custom-two-layout figure::before{
+        width: 200px;
+        height: 471px;
+        left: -177px;
+        top: 64px;
+        margin-top: -64px;
+    }
+    .custom-two-layout-content h2{
+        font-size: 28px;
+    }
+    .bottom .btn{
+        font-size: 15px !important;
+    }
+    .project-content h2 {
+        font-size: 19px;
+        margin-left: -130px;
+    }
+    .card .card-header a{
+        margin-left: -132px;
+    }
+    .project-caption .people {
+        margin-left: -82px;
+        margin-top: 20px;
+    }
+    .test-content {
+        margin-left: 59px;
+        width: 100%;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link{
+        margin-left: 0px;
+    }
+    .header .nav-item .nav-link2{
+        margin-right: 150px;
+    }
+}
+@media(max-width:768px) {
+    .banner .content{
+        margin-left: 12px;
+    }
+    .banner .content h1{
+        font-size: 32px;
+        margin-left: -6px;
+    }
+    .banner .content p {
+        font-size: 15px;
+    }
+    .banner .content p{
+        font-size: 16px;
+    }
+    .banner .content .btn2{
+        font-size: 16px !important;
+    }
+    .banner-image img {
+        width: 100%;
+        margin-left: -20px;
+        height: 496px;
+        margin-top: 0px;
+    }
+    .custom-two-layout figure::before{
+        width: 200px;
+        height: 471px;
+        left: -177px;
+        top: 64px;
+        margin-top: -64px;
+    }
+    .custom h2{
+        font-size: 31px;
+        margin-left: 67px;
+    }
+    .custom p{
+        font-size: 18px;
+        margin-top: 90px;
+    }
+    .custom-two-layout figure img{
+        width: 501px;
+    }
+    .custom-two-layout-content h2{
+        font-size: 28px;
+    }
+    .about-more p{
+        font-size: 16px;
+    }
+    .custom-two-layout-content h2{
+        font-size: 28px;
+    }
+    .bottom .btn{
+        font-size: 15px !important;
+    }
+    .project-content h2 {
+        font-size: 19px;
+        margin-left: -130px;
+    }
+    .card .card-header a{
+        margin-left: -132px;
+    }
+    .project-caption .people {
+        margin-left: -82px;
+        margin-top: 20px;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link{
+        margin-left: 0px;
+    }
+    .header .nav-item .nav-link2{
+        margin-right: 150px;
+    }
+}
+
+@media(max-width:768px){
+    .banner-image img {
+        width: 164%;
+    }
+    .banner .content h1{
+        font-size: 32px;
+        margin-left: -6px;
+    }
+    .banner .content p {
+        font-size: 15px;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link{
+        display: none;
+    }
+    .header .nav-item .nav-link2{
+        display: none;
+    }
+    .custom-two-layout figure::before {
+        width: 193px;
+        height: 586px;
+    }
+    .custom-two-layout figure img {
+        height: 586px;
+        width: 400px;
+    }
+    .project-content h2{
+        margin-top: 210px;
+    }
+    .car {
+        width: 800px;
+    }
+    .project-content .card {
+        width: 45%;
+    }
+    .project-content h2 {
+        font-size: 25px;
+        margin-top: 60px;
+    }
+    .project-caption .people {
+        margin-left: 418px;
+        margin-top: -463px;
+        height: 320px;
+    }
+    .contain {
+        width: 990px;
+    }
+    .test-content {
+        margin-left: 165px;
+    }
+    .content-title h3 {
+        text-align: end;
+    }
+    .black-bg {
+        height: 717px;
+        width: 800px;
+    }
+    .footer .footer-title .end {
+        font-size: 20px !important;
+        margin-left: 6px;
+    }
+}
+@media(max-width:576px){
+    .banner-image img {
+        width: 164%;
+    }
+    .banner .content h1{
+        font-size: 32px;
+        margin-left: -6px;
+    }
+    .banner .content p {
+        font-size: 15px;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link{
+        display: none;
+    }
+    .header .nav-item .nav-link2{
+        display: none;
+    }
+    .custom-two-layout figure::before {
+        width: 193px;
+        height: 586px;
+    }
+    .custom-two-layout figure img {
+        height: 586px;
+        width: 400px;
+    }
+    .project-content h2{
+        margin-top: 165px;
+    }
+    .car {
+        width: 800px;
+    }
+    .project-content .card {
+        width: 45%;
+    }
+    .project-content h2 {
+        font-size: 25px;
+        margin-top: 60px;
+    }
+    .project-caption .people {
+        margin-left: 418px;
+        margin-top: -463px;
+        height: 320px;
+    }
+    .contain {
+        width: 990px;
+    }
+    .test-content {
+        margin-left: 210px;
+    }
+    .content-title h3 {
+        text-align: end;
+    }
+    .black-bg {
+        height: 717px;
+        width: 800px;
+    }
+    .footer .footer-title .end {
+        font-size: 20px !important;
+        margin-left: 6px;
+    }
+}
+@media(max-width:576px){
+    .banner {
+        width: 230%;
+    }
+    .banner-image img {
+        width: 92%;
+    }
+    .banner .content {
+        margin-left: 72px;
+    }
+    .banner .content h6 {
+        font-size: 21px;
+    }
+    .banner .content h1 {
+        font-size: 67px;
+    }
+    .banner .content p {
+        font-size: 23px;
+    }
+    .banner .content .btn2 {
+        font-size: 22px !important;
+    }
+    .custom h2 {
+        font-size: 57px;
+        width: 100%;
+        margin-left: 165px;
+    }
+    .custom p {
+        font-size: 20px;
+        margin-top: 45px;
+    }
+    .custom p {
+        font-size: 20px;
+        margin-top: 45px;
+        margin-left: 33px;
+        width: 100%;
+    }
+    .custom-content-img-box {
+        margin-bottom: 36px;
+        margin-left: 130px;
+        width: 100%;
+    }
+    .custom-two-layout figure img {
+    width: 843px;
+    }
+    .custom-two-layout figure::before {
+        width: 237px;
+        margin-top: -64px;
+    }
+    .custom-two-layout-content h2 {
+        font-size: 58px;
+    }
+    .about-more p {
+        font-size: 27px;
+    }
+    .about-section p {
+    font-size: 25px;
+    }
+    p {
+        font-size: 27px;
+    }
+    .car {
+        width: 857px;
+    }
+    .single-card {
+        width: 75%;
+        margin-left: 96px;
+        background-color: aliceblue;
+        margin-bottom: 50px;
+    }
+    .project-content h2 {
+        font-size: 42px;
+        margin-top: 1360px;
+    }
+    .project-caption .people {
+        margin-left: 406px;
+        margin-top: -815px;
+        height: 344px;
+    }
+    .project-content .card {
+        width: 100%;
+        margin-left: -12px;
+    }
+    .contain {
+        height: 536px;
+        width: 1000px;
+    }
+    .test-content {
+        margin-left: 189px;
+    }
+}
+@media(max-width:375px){
+    .banner {
+        width: 230%;
+    }
+    .banner-image img {
+        width: 92%;
+    }
+    .banner .content {
+        margin-left: 72px;
+    }
+    .banner .content h6 {
+        font-size: 21px;
+    }
+    .banner .content h1 {
+        font-size: 67px;
+    }
+    .banner .content p {
+        font-size: 23px;
+    }
+    .banner .content .btn2 {
+        font-size: 22px !important;
+    }
+    .custom h2 {
+        font-size: 57px;
+        width: 100%;
+        margin-left: 165px;
+    }
+    .custom p {
+        font-size: 20px;
+        margin-top: 45px;
+    }
+    .custom p {
+        font-size: 20px;
+        margin-top: 45px;
+        margin-left: 33px;
+        width: 100%;
+    }
+    .custom-content-img-box {
+        margin-bottom: 36px;
+        margin-left: 130px;
+        width: 100%;
+    }
+    .custom-two-layout figure::before {
+        width: 237px;
+        margin-top: -64px;
+    }
+    .custom-two-layout-content h2 {
+        font-size: 58px;
+    }
+    .about-more p {
+        font-size: 27px;
+    }
+    .about-section p {
+        font-size: 25px;
+    }
+    p {
+        font-size: 27px;
+    }
+    .car {
+        width: 857px;
+    }
+    .single-card {
+        width: 75%;
+        margin-left: 96px;
+        background-color: aliceblue;
+        margin-bottom: 50px;
+    }
+    .project-content h2 {
+        font-size: 42px;
+        margin-top: 1360px;
+    }
+    .project-caption .people {
+        margin-left: 406px;
+        margin-top: -815px;
+        height: 344px;
+    }
+    .project-content .card {
+        width: 100%;
+        margin-left: -12px;
+    }
+    .contain {
+        height: 536px;
+        width: 1000px;
+    }
+    .test-content {
+        margin-left: 189px;
+    }
 }

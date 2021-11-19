@@ -39,10 +39,10 @@
                     <nav class="navbar navbar-expand-sm justify-content-end">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" id="Home" href="#" onclick="Home()">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#" onclick="About()">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Services</a>
@@ -61,6 +61,14 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript">
+            function Home() {
+                alert('you clicked at Home.');
+            }
+            function About() {
+                alert('you clicked at About.');
+            }
+        </script>
         <script>
             window.onscroll = function () { myFunction() };
 
@@ -76,6 +84,7 @@
             }
         </script>
     </div>
+    
     <div class="banner">
         <div class="container-fluid">
             <div class="row d-flex align-items-center">
@@ -606,12 +615,12 @@
             </div>
         </div>
     </div>
-    <footer>
+    <footer class="footer">
         <div class="footer-wrapper black-bg">
             <div class="footer-area footer-padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3">
                             <div class="single-footer-caption mb-50">
                                 <div class="single-footer-caption mb-40">
                                     <div class="footer-logo mb-45">
@@ -640,7 +649,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-3">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-title">
                                     <h4>Navigation</h4>
@@ -664,7 +673,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-8 col-sm-6">
+                        <div class="col-xl-2 col-lg-2 col-md-8 col-sm-3">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-title">
                                     <h4>Services</h4>
@@ -685,7 +694,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-3">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-title mb-20">
                                     <h4>Contact Us</h4>
@@ -694,8 +703,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="footer-bottom-area">
-                            <div class="col-xl-12">
+
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="footer-bottom-area">
+
                                 <div class="footer-border">
                                     <div class="row">>
                                         <div class="footer-copy-right">
@@ -706,9 +719,13 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <button onclick="topFunction()" id="myBtn" title="Go to top">
         <i class="fa fa-arrow-up"></i>
@@ -720,6 +737,7 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
