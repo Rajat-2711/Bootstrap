@@ -1280,7 +1280,7 @@ footer .footer-title .end{
         width: 100%;
     }
     .banner-image img {
-        width: 92%;
+        width: 100%;
     }
     .banner .content {
         margin-left: 0px;
@@ -1289,7 +1289,7 @@ footer .footer-title .end{
         font-size: 21px;
     }
     .banner .content h1 {
-        font-size: 67px;
+        font-size: 55px;
     }
     .banner .content p {
         font-size: 23px;
@@ -1327,7 +1327,8 @@ footer .footer-title .end{
         margin-top: -64px;
     }
     .custom-two-layout-content h2 {
-        font-size: 58px;
+        font-size: 50px;
+        margin-left: -64px;
     }
     .about-more p {
         font-size: 27px;
@@ -1349,17 +1350,18 @@ footer .footer-title .end{
         margin-bottom: 50px;
     }
     .project-content h2 {
-        font-size: 42px;
-        margin-top: 1360px;
+        font-size: 36px;
+        margin-top: 2210px;
     }
     .project-caption .people {
-        margin-left: 40px;
-        margin-top: -815px;
-        height: 344px;
+        margin-left: 276px;
+        margin-top: -1108px;
+        height: 166px;
     }
     .project-content .card {
         width: 100%;
         margin-left: -12px;
+        margin-bottom: 13px;
     }
     .contain {
         height: 536px;
@@ -1369,18 +1371,41 @@ footer .footer-title .end{
     .test-content {
         margin-left: 189px;
     }
+    .content-title .middle-head{
+        font-size: 44px;
+        margin-top: -100px;
+    }
     .content-title h3 {
         /* text-align: end; */
         text-align: -webkit-left;
     }
     footer .footer-pera p {
-        font-size: 25px;
+        font-size: 21px;
+        margin-left: -74px;
         }
     footer img{
         height: 40px;
+        margin-left: 10px;
         }
     .fa {
         font-size: 40px;
+    }
+    .footer-titles p{
+        font-size: 24px;
+        margin-left: -61px;
+    }
+    .footer-end{
+        margin-left: -70px;
+    }
+    .footer .footer-title .end {
+        margin-left: 43px;
+    }
+    .test-content {
+    margin-left: 0px;
+    background-color: rgba(255,255,255,0.6);
+    }
+    .black-bg {
+    height: 1317px;
     }
 }
 @media(max-width:375px){
@@ -1388,7 +1413,7 @@ footer .footer-title .end{
         width: 100%;
     }
     .banner-image img {
-        width: 92%;
+        width: 100%;
     }
     .banner .content {
         margin-left: 0px;
@@ -1397,7 +1422,7 @@ footer .footer-title .end{
         font-size: 21px;
     }
     .banner .content h1 {
-        font-size: 67px;
+        font-size: 55px;
     }
     .banner .content p {
         font-size: 23px;
@@ -1431,13 +1456,20 @@ footer .footer-title .end{
         margin-top: -64px;
     }
     .custom-two-layout-content h2 {
-        font-size: 58px;
+        font-size: 50px;
+        margin-left: -64px;
+    }
+    .content-title .middle-head{
+        font-size: 44px;
+        margin-top: -100px;
     }
     .about-more p {
-        font-size: 27px;
+        font-size: 21px;
+        margin-left: -61px;
     }
     .about-section p {
-        font-size: 25px;
+        font-size: 21px;
+        margin-left: -61px;
     }
     p {
         font-size: 27px;
@@ -1453,17 +1485,18 @@ footer .footer-title .end{
         margin-bottom: 50px;
     }
     .project-content h2 {
-        font-size: 42px;
-        margin-top: 1360px;
+        font-size: 36px;
+        margin-top: 2210px;
     }
     .project-caption .people {
-        margin-left: 40px;
-        margin-top: -815px;
-        height: 344px;
-    }
-    .project-content .card {
+        margin-left: 276px;
+        margin-top: -1108px;
+        height: 166px;
+    }   
+     .project-content .card {
         width: 100%;
         margin-left: -12px;
+        margin-bottom: 13px;
     }
     .contain {
         height: 536px;
@@ -1474,12 +1507,34 @@ footer .footer-title .end{
         margin-left: 18px;
     }
     footer .footer-pera p {
-    font-size: 25px;
+    font-size: 21px;
+    margin-left: -74px;
+    }
+    footer .footer-title h4 {
+        margin-top: 0px;
+    }
+    .footer .footer-title .end {
+        margin-left: 43px;
+    }
+    .footer-titles p{
+        font-size: 24px;
+        margin-left: -61px;
     }
     .fa {
         font-size: 40px;
     }
+    .footer-end{
+        margin-left: -70px;
+    }
     footer img{
         height: 40px;
+        margin-left: 10px;
+    }
+    .test-content {
+        background-color: rgba(255,255,255,0.6);
+        margin-left: 0px;
+    }
+    .black-bg {
+        height: 1317px;
         }
 }
