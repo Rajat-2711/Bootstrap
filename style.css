@@ -35,8 +35,8 @@ figure{
 .header .logo img{
     width: 100%;
     max-width: 120px;
-    margin-left: 25px;
-    margin-top: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 .nav{
     margin: 40px;
@@ -48,7 +48,11 @@ figure{
 .container-fluid{
     padding-right: 0px;
 }
+figure.banner-image {
+    margin: 0;
+}
 .banner{
+    margin-top: -5px;
     background: #FFDDB5;
 }
 .navbar-nav{
@@ -70,9 +74,8 @@ figure{
     font-weight: 700!important;
     padding: 10px 24px!important;
     display: inline-block!important;
-    border: none;
+    font-family: 'Josefin Sans', sans-serif;
     margin-right: 10px;
-    padding-right: 300px;
     border-radius: 4px;
     text-transform: capitalize;
     cursor: pointer;
@@ -92,7 +95,7 @@ figure{
 .banner .content h6{
     color:#ff9100;
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
     font-size: 14px;
     text-transform: uppercase;
@@ -116,10 +119,9 @@ figure{
     line-height: 1.4;
     font-weight: 400;
 }
-.banner-image{
+.banner-image img {
     width: 100%;
-    margin:0px;
-    padding: 0px;
+    height: 650px;
 }
 .banner-image img{
     width: 100%;
@@ -277,6 +279,8 @@ figure{
 .custom-two-layout figure img{
     width: 100%;
     max-width: 720px;
+    height: 661px;
+    margin-left: -63px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -288,9 +292,9 @@ figure{
     background: #ffe0bb;
     top: 0;
     left: -177px;
-    height: 677px;
+    height: 661px;
     width: 100%;
-    max-width: 200px;
+    max-width: 180px;
 }
 .custom-two-layout figure::after::before{
     box-sizing: border-box;
@@ -301,17 +305,36 @@ figure{
     background-position: center center;
     margin-bottom: 50px;
     width: 50%;
-    margin-left: 110px;
+    margin-left: 0px;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
     margin-top: 80px;
     width: 375px;
 }
-.custom-two-layout-content h2{
+/* .custom-two-layout-content .serve{
     font-size: 46px;
     display: block;
     font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 22px;
+    font-family: 'Josefin Sans','sans-serif';
+    color: #000;
+    font-style: normal;
+    margin-top: 0px;
+} */
+
+.custom-two-layout-content .section-title h2{
+    font-size: 46px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 22px;
+}
+.custom-two-layout-content h2{
+    font-size: 46px;
+    display: block;
+    font-weight: 400;
     line-height: 1.4;
     margin-bottom: 22px;
     margin-top: 0;
@@ -429,6 +452,9 @@ footer .footer-titles h2{
     background-color: white;
     padding: 30px;
 }
+.project-content .card-header {
+    background-color: white;
+}
 .single-card .middle{
     color: #ff9100;
     font-size: 17px;
@@ -521,28 +547,24 @@ footer .footer-titles h2{
 .project-content .card{
     margin-left: -18px;
     display: block;
-    border-bottom: 1px solid #efefef!important;
+    border-bottom: 1px solid #efefef !important;
     width: 50%;
     border-radius: 0px;
-    background-color:white;
     border: none;
 }
-.card-header i{
+.card-header i {
     font-size: 15px;
-
-    font-weight: 800;
-}
-.card-header i{
-    font-size: 16px;
     color: #ff9100;
+    font-weight: 300;
+    margin-right: 10px;
 }
 .card-header i:hover{
     color: #FF9100;
 }
 .card .card-header a{
-    background-color: none;
+    background-color: transparent;
     color:#212529;
-    font-size: 50x !important;
+    font-size: 16px !important;
     text-decoration: none;
     font-weight: 500 !important;
     margin-top: 15px;
@@ -1368,6 +1390,7 @@ footer .footer-title .end{
     }
     .banner .content p {
         font-size: 19px;
+        margin-left: -16px;
     }
     .banner .content .btn2 {
         font-size: 18px !important;
@@ -1386,6 +1409,9 @@ footer .footer-title .end{
     .custom-content-img-box {
         margin-bottom: 36px;
     }
+    .custom-two-layout-content .section-title h2 {
+        padding-left: 12px;
+    }
     .custom-two-layout figure img {
         width: 100%;
         max-width: 843px;
@@ -1397,19 +1423,20 @@ footer .footer-title .end{
     }
     .custom-two-layout-content h2 {
         font-size: 35px;
-        margin-left: -28px;
-        padding-left: 20px;
+        font-weight: 600;
+        padding-left: 10px;
     }
     .about-more p {
         font-size: 20px;
-        padding-right: 200px;
+        padding-left: 14px;
     }
     .about-section p {
-        font-size: 21px;
-        padding-right: 200px;
+        font-size: 20px;
+        padding-left: 14px;
     }
     p {
         font-size: 22px;
+        padding-left: 13px;
     }
     .car {
         width: 100%;
@@ -1462,6 +1489,7 @@ footer .footer-title .end{
     footer img{
         height: 32px;
         margin-left: 0px;
+        padding-left: 22px;
         }
     .fa {
         font-size: 40px;
@@ -1480,6 +1508,7 @@ footer .footer-title .end{
     }
     .footer .footer-title .end {
         margin-left: 43px;
+        font-size: 25px !important;
     }
     .test-content {
     margin-left: 0px;
@@ -1617,6 +1646,7 @@ footer .footer-title .end{
     }
     .banner .content p {
         font-size: 19px;
+        margin-left: -16px;
     }
     .banner .content .btn2 {
         font-size: 18px !important;
@@ -1634,6 +1664,9 @@ footer .footer-title .end{
     .custom-content-img-box {
         margin-bottom: 36px;
     }
+    .custom-two-layout-content h2{
+        padding-left: 13px;
+    }
     .custom-two-layout figure::before {
         width: 100%;
         max-width: 237px;
@@ -1641,8 +1674,8 @@ footer .footer-title .end{
     }
     .custom-two-layout-content h2 {
         font-size: 35px;
-        margin-left: -28px;
-        padding-left: 20px;
+        padding-left: 10px;
+        font-weight: 600;
     }
     .custom-three-layout h5 {
         font-size: 24px;
@@ -1722,6 +1755,7 @@ footer .footer-title .end{
     }
     .footer .footer-title .end {
         margin-left: 43px;
+        font-size: 25px !important;
     }
     .footer-titles p{
         font-size: 21px;    
@@ -1735,6 +1769,7 @@ footer .footer-title .end{
     footer img{
         height: 32px;
         margin-left: 0px;
+        padding-left: 22px;
     }
     .test-content {
         background-color: rgba(255,255,255,0.6);
