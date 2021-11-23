@@ -21,9 +21,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </head>
-
 <body>
     <div class="header" id="myHeader">
         <div class="container-fluid">
@@ -34,9 +32,16 @@
                             <img src="download.webp" alt="Imagee">
                         </figure>
                     </div>
+                    <div class="hamburger_menu">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
                 </div>
+               
+                    
                 <div class="col-md-6">
-                    <nav class="navbar navbar-expand-sm justify-content-end navbar-wrapper">
+                    <nav class="sidebar navbar navbar-expand-sm justify-content-end navbar-wrapper">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link" id="Home" href="#" onclick="Home()">Home</a>
@@ -58,6 +63,7 @@
                         </ul>
                         </li>
                     </nav>
+                   
                 </div>
             </div>
         </div>
@@ -733,8 +739,16 @@
         <i class="fa fa-arrow-up"></i>
     </button>
     <script>
-
+    
+    $(".hamburger_menu").click(function(){
+  $(".sidebar").toggle();
+});
     </script>
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+        </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

@@ -54,7 +54,6 @@ figure{
 .navbar-nav{
     margin-bottom: 0px;
     margin-top: 10px;
-    margin-right: 22px;
 }
 .header .nav-item .nav-link{
     font-size: 16px;
@@ -553,9 +552,6 @@ footer .footer-titles h2{
 .card-header a:hover{
     color: #ff9100;
 }
-.test-caption{
-    height: 600px;
-}
 .contain{
     width: 100%;
     margin-top: 100px;
@@ -974,9 +970,6 @@ footer .footer-title .end{
         max-width: 120px;
         text-align: center;
     }
-    .navbar-expand-sm .navbar-nav .nav-link{
-        margin-left: 505px;
-    }
     .banner-image img {
         width:100%;
     }
@@ -1276,6 +1269,87 @@ footer .footer-title .end{
     }
 }
 @media(max-width:576px){
+    body{
+        overflow-x: hidden;
+    }
+    .header .logo img {
+        margin-left: 0px;
+    }
+    .header .nav-item .nav-link2 {
+        display: none !important;
+    }
+    .header .nav-item .nav-link2 {
+        display: block !important;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .hamburger-menu{
+        width: 35px;
+        height: 30px;
+        margin-top: 0px;
+        position: fixed;
+        margin-left: -16px;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar{
+        margin-left: -30px;
+        width: 100%;
+        max-width: 50%;
+        height: 100%;
+        background-color: #262626;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+    .nav-item{
+        margin: 25px;
+        list-style: none;
+        color: white;
+    }
+    .nav-link{
+        display: block;
+        text-decoration: none;
+        color: #efefef;
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+    }
+    
+    .line{
+        width: 15%;
+        margin-top: 10px;
+        height: 3px;
+        z-index: 1;
+        margin-left: 295px;
+        background-color: chocolate;
+    }
+   .change .line-1{
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .change .line-2{
+        opacity: 0;
+    }
+    .change .line-3{
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+        /* display: none; */
+        display: block;
+        margin-bottom: -35px;
+        color: aqua;
+    }
     .banner {
         width: 100%;
     }
@@ -1298,9 +1372,7 @@ footer .footer-title .end{
         font-size: 22px !important;
     }
     .custom h2 {
-        font-size: 57px;
-        width: 100%;
-        margin-left: 16px;
+        font-size: 47px;
     }
     .custom p {
         font-size: 20px;
@@ -1308,14 +1380,10 @@ footer .footer-title .end{
     }
     .custom p {
         font-size: 20px;
-        margin-top: 45px;
-        margin-left: 33px;
-        width: 100%;
+        text-align: left;
     }
     .custom-content-img-box {
         margin-bottom: 36px;
-        margin-left: 13px;
-        width: 100%;
     }
     .custom-two-layout figure img {
         width: 100%;
@@ -1327,17 +1395,20 @@ footer .footer-title .end{
         margin-top: -64px;
     }
     .custom-two-layout-content h2 {
-        font-size: 50px;
-        margin-left: -64px;
+        font-size: 35px;
+        margin-left: -28px;
+        padding-left: 20px;
     }
     .about-more p {
-        font-size: 27px;
+        font-size: 20px;
+        padding-right: 200px;
     }
     .about-section p {
-    font-size: 25px;
+        font-size: 21px;
+        padding-right: 200px;
     }
     p {
-        font-size: 27px;
+        font-size: 22px;
     }
     .car {
         width: 100%;
@@ -1345,18 +1416,22 @@ footer .footer-title .end{
     }
     .single-card {
         width: 75%;
-        margin-left: 9px;
+        margin-left: 48px;
         background-color: aliceblue;
         margin-bottom: 50px;
     }
     .project-content h2 {
-        font-size: 36px;
-        margin-top: 2210px;
+        font-size: 29px;
+        margin-top: 1444px;
+        margin-left: -137px;
     }
     .project-caption .people {
-        margin-left: 276px;
-        margin-top: -1108px;
-        height: 166px;
+        height: 271px;
+        margin-top: 20px;
+        padding-left: 40px;
+    }
+    .accordion{
+        margin-top: 66px;
     }
     .project-content .card {
         width: 100%;
@@ -1371,28 +1446,33 @@ footer .footer-title .end{
     .test-content {
         margin-left: 189px;
     }
-    .content-title .middle-head{
+    .content-title .middle-head {
         font-size: 44px;
-        margin-top: -100px;
+        text-align: center;
     }
-    .content-title h3 {
-        /* text-align: end; */
-        text-align: -webkit-left;
+    .content-title h3{
+        text-align: left;
+        margin-left: 0px;
     }
     footer .footer-pera p {
         font-size: 21px;
         margin-left: -74px;
         }
     footer img{
-        height: 40px;
-        margin-left: 10px;
+        height: 32px;
+        margin-left: 0px;
         }
     .fa {
         font-size: 40px;
     }
     .footer-titles p{
-        font-size: 24px;
-        margin-left: -61px;
+        font-size: 21px;    
+    }
+    p {
+        font-size: 20px;
+    }
+    .footer .footer-title ul {
+        margin-left: 86px;
     }
     .footer-end{
         margin-left: -70px;
@@ -1405,10 +1485,120 @@ footer .footer-title .end{
     background-color: rgba(255,255,255,0.6);
     }
     .black-bg {
-    height: 1317px;
+    height: 1161px;
+    }
+    .sidebar{
+        position: fixed;
+        left: 0px;
+        top:0px;
+        z-index: 1;
+    }
+    .custom-three-layout h5 {
+        font-size: 24px;
+        margin-left: 0px;
+        font-weight: 700;
+        margin-top: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #000;
+    }
+    .custom-three-layout p {
+        font-size: 19px;
     }
 }
-@media(max-width:375px){
+@media(max-width:375px)
+{
+    body{
+        overflow-x: hidden;
+    }
+    *{
+        margin: 0px;
+        padding-left: 0px;
+        box-sizing: border-box;
+    }
+    .header .nav-item .nav-link2 {
+        display: block !important;
+    }
+    .menu-btn{
+        position: relative;
+        display: flex;
+        justify-content: right;
+        align-items: left;
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+    }    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .hamburger-menu{
+        width: 35px;
+        z-index: 1;
+        height: 30px;
+        margin-top: 0px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        margin-left: -16px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar{
+        width: 100%;
+        max-width: 50%;
+        height: 100%;
+        background-color: #262626;
+        position: fixed;
+        top: 0;
+        margin-left: -30px;
+        right: 0;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+    .nav-item{
+        margin: 25px;
+        list-style: none;
+        color: white;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+        /* display: none; */
+        display: block;
+        margin-bottom: -35px;
+        color: aqua;
+    }
+    .nav-link{
+        display: block;
+        text-decoration: none;
+        color: #efefef;
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+    }
+    .line{
+        width: 23%;
+        margin-top: 10px;
+        height: 3px;
+        z-index: 1;
+        margin-left: 295px;
+        background-color: chocolate;
+    }
+    .line .line-1{
+        transform: rotateZ(-45deg) translate(-8px, -6px);
+    }
+    .line .line-2{
+        opacity: 0;
+    }
+    .line .line-3{
+        transform: rotateZ(-45deg) translate(-8px, -6px);
+    }
+    .header .logo img {
+        margin-left: 0px;
+    }
+    .header .nav-item .nav-link2 {
+        display: none !important;
+    }
     .banner {
         width: 100%;
     }
@@ -1431,24 +1621,17 @@ footer .footer-title .end{
         font-size: 22px !important;
     }
     .custom h2 {
-        font-size: 57px;
-        width: 100%;
-        margin-left: 12px;
+        font-size: 47px;
+    }
+    .accordion{
+        margin-top: 66px;
     }
     .custom p {
         font-size: 20px;
-        margin-top: 45px;
-    }
-    .custom p {
-        font-size: 20px;
-        margin-top: 45px;
-        margin-left: 33px;
-        width: 100%;
+        text-align: left;
     }
     .custom-content-img-box {
         margin-bottom: 36px;
-        margin-left: 30px;
-        width: 100%;
     }
     .custom-two-layout figure::before {
         width: 100%;
@@ -1456,23 +1639,42 @@ footer .footer-title .end{
         margin-top: -64px;
     }
     .custom-two-layout-content h2 {
-        font-size: 50px;
-        margin-left: -64px;
+        font-size: 35px;
+        margin-left: -28px;
+        padding-left: 20px;
     }
-    .content-title .middle-head{
+    .custom-three-layout h5 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 0px;
+        color: #000;
+    }
+    .custom-three-layout p {
+        font-size: 19px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .content-title .middle-head {
         font-size: 44px;
-        margin-top: -100px;
+        text-align: center;
+    }
+    .content-title h3{
+        text-align: left;
+        margin-left: 0px;
     }
     .about-more p {
         font-size: 21px;
-        margin-left: -61px;
+        padding-right: 200px;
     }
     .about-section p {
         font-size: 21px;
-        margin-left: -61px;
+        padding-right: 200px;
     }
     p {
-        font-size: 27px;
+        font-size: 22px;
     }
     .car {
         width: 100%;
@@ -1480,18 +1682,19 @@ footer .footer-title .end{
     }
     .single-card {
         width: 75%;
-        margin-left: 26px;
+        margin-left: 48px;
         background-color: aliceblue;
         margin-bottom: 50px;
     }
     .project-content h2 {
-        font-size: 36px;
-        margin-top: 2210px;
+        font-size: 29px;
+        margin-top: 1444px;
+        margin-left: -137px;
     }
     .project-caption .people {
-        margin-left: 276px;
-        margin-top: -1108px;
-        height: 166px;
+        height: 271px;
+        margin-top: 20px;
+        padding-left: 40px;
     }   
      .project-content .card {
         width: 100%;
@@ -1513,12 +1716,14 @@ footer .footer-title .end{
     footer .footer-title h4 {
         margin-top: 0px;
     }
+    .footer .footer-title ul {
+        margin-left: 86px;
+    }
     .footer .footer-title .end {
         margin-left: 43px;
     }
     .footer-titles p{
-        font-size: 24px;
-        margin-left: -61px;
+        font-size: 21px;    
     }
     .fa {
         font-size: 40px;
@@ -1527,14 +1732,20 @@ footer .footer-title .end{
         margin-left: -70px;
     }
     footer img{
-        height: 40px;
-        margin-left: 10px;
+        height: 32px;
+        margin-left: 0px;
     }
     .test-content {
         background-color: rgba(255,255,255,0.6);
         margin-left: 0px;
     }
     .black-bg {
-        height: 1317px;
+        height: 1161px;
         }
-}
+        .sidebar{
+            position: fixed;
+            left: 0px;
+            top:0px;
+            z-index: 1;
+        }
+    }
