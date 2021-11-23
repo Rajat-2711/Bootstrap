@@ -1247,6 +1247,9 @@ footer .footer-title .end{
         max-width: 193px;
         height: 586px;
     }
+        .custom-three-layout p {
+        margin-left: -12px;
+    }
     .custom-two-layout figure img {
         height: 586px;
         width: 100%;
@@ -1294,7 +1297,7 @@ footer .footer-title .end{
     body{
         overflow-x: hidden;
     }
-    .header .logo img {
+   .header .logo img{
         margin-left: 0px;
     }
     .header .nav-item .nav-link2 {
@@ -1377,86 +1380,104 @@ footer .footer-title .end{
         margin-top: -40px;
     }
     .banner-image img {
-        width: 100%;
+        width: -webkit-fill-available;
     }
     .banner .content {
         margin-left: 0px;
     }
     .banner .content h6 {
         font-size: 18px;
+        margin-left: -12px;
     }
     .banner .content h1 {
         font-size: 45px;
+        margin-left: -12px;
     }
     .banner .content p {
         font-size: 19px;
-        margin-left: -16px;
+        margin-left: -20px;
     }
     .banner .content .btn2 {
         font-size: 18px !important;
+        margin-left: -8px;
+        padding-top: 12px;
+        padding-bottom: 11px;
+        padding-left: 25px;
+        padding-right: 31px;
     }
     .custom h2 {
-        font-size: 47px;
+        font-size: 40px;
+        margin-left: 0;
+        margin-top: 40px;
     }
     .custom p {
-        font-size: 20px;
-        margin-top: 45px;
-    }
-    .custom p {
-        font-size: 20px;
-        text-align: left;
+        font-size: 19px;
+        margin-left: -12px;
+        margin-top: 0px;
     }
     .custom-content-img-box {
         margin-bottom: 36px;
     }
+    .custom-three-layout p {
+        margin-left: -12px;
+    }
     .custom-two-layout-content .section-title h2 {
-        padding-left: 12px;
+        padding-left: 0px;
+        margin-top: -294px;
     }
     .custom-two-layout figure img {
-        width: 100%;
+        width: -webkit-fill-available;
         max-width: 843px;
+        margin-top: -110px;
+        height: -webkit-fill-available;
     }
     .custom-two-layout figure::before {
-        width: 100%;
+        width: -webkit-fill-available;
         max-width: 237px;
-        margin-top: -64px;
+        margin-top: -175px;
+        height: 418px;
     }
     .custom-two-layout-content h2 {
         font-size: 35px;
         font-weight: 600;
-        padding-left: 10px;
+        padding-left: 0px;
     }
     .about-more p {
-        font-size: 20px;
-        padding-left: 14px;
+        font-size: 18px;
+        padding-left: 2px;
     }
     .about-section p {
-        font-size: 20px;
-        padding-left: 14px;
+        font-size: 18px;
+        padding-left: 10px;
     }
     p {
         font-size: 22px;
         padding-left: 13px;
+    }
+    .section-header h2 {
+        font-size: 45px;
+        margin-top: -89px;
     }
     .car {
         width: 100%;
         max-width: 857px;
     }
     .single-card {
-        width: 75%;
-        margin-left: 48px;
+        width: -webkit-fill-available;
+        margin-left: 0px;
         background-color: aliceblue;
         margin-bottom: 50px;
     }
     .project-content h2 {
         font-size: 29px;
-        margin-top: 1444px;
-        margin-left: -137px;
+        margin-top: 1160px;
+        margin-left: -163px;
     }
     .project-caption .people {
-        height: 271px;
-        margin-top: 20px;
-        padding-left: 40px;
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+        margin-top: 0;
+        padding-left: 0;
     }
     .accordion{
         margin-top: 66px;
@@ -1468,11 +1489,28 @@ footer .footer-title .end{
     }
     .contain {
         height: 536px;
+        margin-top: 24px;
         width: 100%;
-        max-width: 1000px;
+        max-width: -webkit-fill-available;
+    }
+    .card-header {
+        width: -webkit-fill-available;
+        margin-left: -37px;
+    }
+    .context-wrapper .context-para {
+        margin-left: 0;
+        padding-left: 149px;
     }
     .test-content {
         margin-left: 189px;
+    }
+    .carousel-item img {
+        margin-top: 36px;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+    .content-title {
+        margin-top: 36px;
     }
     .content-title .middle-head {
         font-size: 44px;
@@ -1482,32 +1520,43 @@ footer .footer-title .end{
         text-align: left;
         margin-left: 0px;
     }
+    footer.footer {
+        margin-top: -48px;
+    }
     footer .footer-pera p {
-        font-size: 21px;
-        margin-left: -74px;
-        }
+        font-size: 18px;
+        margin-left: -95px;
+    }
+    .footer .footer-copy-right p {
+        font-size: 10px;
+    }
     footer img{
         height: 32px;
         margin-left: 0px;
-        padding-left: 22px;
+        padding-left: 5px;
         }
     .fa {
         font-size: 40px;
     }
+    footer .footer-title h4 {
+        margin-top: 0px;
+        margin-left: 5px;
+    }
     .footer-titles p{
-        font-size: 21px;    
+        font-size: 21px;
+        padding-left: 9px;    
     }
     p {
         font-size: 20px;
     }
     .footer .footer-title ul {
-        margin-left: 86px;
+        margin-left: 44px;
     }
     .footer-end{
-        margin-left: -70px;
+        margin-left: -93px;
     }
     .footer .footer-title .end {
-        margin-left: 43px;
+        margin-left: 0px;
         font-size: 25px !important;
     }
     .test-content {
@@ -1534,6 +1583,12 @@ footer .footer-title .end{
     .custom-three-layout p {
         font-size: 19px;
     }
+    .footer .footer-title p {
+        margin-left: -11px;
+    }
+    .car .pricing-car-area {
+        margin-top: -40px;
+    }
 }
 @media(max-width:375px)
 {
@@ -1544,6 +1599,13 @@ footer .footer-title .end{
         margin: 0px;
         padding-left: 0px;
         box-sizing: border-box;
+    }
+    .custom-two-layout-content .section-title h2 {
+        padding-left: 0px;
+        margin-top: -294px;
+    }
+    .car .pricing-car-area {
+        margin-top: -40px;
     }
     .header .nav-item .nav-link2 {
         display: block !important;
@@ -1597,6 +1659,10 @@ footer .footer-title .end{
         margin-bottom: -35px;
         color: aqua;
     }
+    .context-wrapper .context-para {
+        margin-left: 0;
+        padding-left: 149px;
+    }
     .nav-link{
         display: block;
         text-decoration: none;
@@ -1622,7 +1688,7 @@ footer .footer-title .end{
     .line .line-3{
         transform: rotateZ(-45deg) translate(-8px, -6px);
     }
-    .header .logo img {
+    .header .logo img{
         margin-left: 0px;
     }
     .header .nav-item .nav-link2 {
@@ -1633,33 +1699,53 @@ footer .footer-title .end{
         top: -40px;
     }
     .banner-image img {
-        width: 100%;
+        width: -webkit-fill-available;
     }
     .banner .content {
         margin-left: 0px;
     }
     .banner .content h6 {
         font-size: 18px;
+        margin-left: -12px;
     }
     .banner .content h1 {
         font-size: 45px;
+        margin-left: -12px;
     }
     .banner .content p {
         font-size: 19px;
-        margin-left: -16px;
+        margin-left: -20px;
+    }
+    .carousel-item img {
+        margin-top: 36px;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
     }
     .banner .content .btn2 {
         font-size: 18px !important;
+        margin-left: -8px;
+        padding-top: 12px;
+        padding-bottom: 11px;
+        padding-left: 25px;
+        padding-right: 31px;
     }
     .custom h2 {
         font-size: 47px;
+        margin-top: 40px;
     }
     .accordion{
         margin-top: 66px;
     }
     .custom p {
-        font-size: 20px;
-        text-align: left;
+        font-size: 19px;
+        margin-left: -12px;
+        margin-top: 0px;
+    }
+    .custom-two-layout figure img {
+        width: -webkit-fill-available;
+        max-width: 843px;
+        height: -webkit-fill-available;
+        margin-top: -110px;
     }
     .custom-content-img-box {
         margin-bottom: 36px;
@@ -1668,13 +1754,14 @@ footer .footer-title .end{
         padding-left: 13px;
     }
     .custom-two-layout figure::before {
-        width: 100%;
+        width: -webkit-fill-available;
         max-width: 237px;
-        margin-top: -64px;
+        margin-top: -175px;
+        height: 418px;
     }
     .custom-two-layout-content h2 {
         font-size: 35px;
-        padding-left: 10px;
+        padding-left: 0px;
         font-weight: 600;
     }
     .custom-three-layout h5 {
@@ -1691,6 +1778,9 @@ footer .footer-title .end{
     p {
         font-size: 20px;
     }
+    .content-title {
+        margin-top: 36px;
+    }
     .content-title .middle-head {
         font-size: 44px;
         text-align: center;
@@ -1700,35 +1790,44 @@ footer .footer-title .end{
         margin-left: 0px;
     }
     .about-more p {
-        font-size: 21px;
-        padding-right: 200px;
+        font-size: 18px;
+        padding-left: 2px;
     }
     .about-section p {
-        font-size: 21px;
-        padding-right: 200px;
+        font-size: 18px;
+        padding-left: 10px;
     }
     p {
         font-size: 22px;
+    }
+    .section-header h2 {
+        font-size: 45px;
+        margin-top: -89px;
     }
     .car {
         width: 100%;
         max-width: 857px;
     }
+    .card-header {
+        width: -webkit-fill-available;
+        margin-left: -37px;
+    }
     .single-card {
-        width: 75%;
-        margin-left: 48px;
+        width: -webkit-fill-available;;
+        margin-left: 0px;
         background-color: aliceblue;
         margin-bottom: 50px;
     }
     .project-content h2 {
         font-size: 29px;
-        margin-top: 1444px;
-        margin-left: -137px;
+        margin-top: 1160px;
+        margin-left: -163px;
     }
     .project-caption .people {
-        height: 271px;
-        margin-top: 20px;
-        padding-left: 40px;
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+        margin-top: 0;
+        padding-left: 0;
     }   
      .project-content .card {
         width: 100%;
@@ -1737,39 +1836,51 @@ footer .footer-title .end{
     }
     .contain {
         height: 536px;
+        margin-top: 24px;
         width: 100%;
-        max-width: 1000px;
+        max-width: -webkit-fill-available;
     }
     .test-content {
         margin-left: 18px;
     }
+    footer.footer {
+        margin-top: -48px;
+    }
     footer .footer-pera p {
-    font-size: 21px;
-    margin-left: -74px;
+    font-size: 18px;
+    margin-left: -95px;
     }
     footer .footer-title h4 {
         margin-top: 0px;
+        margin-left: 5px;
     }
     .footer .footer-title ul {
-        margin-left: 86px;
+        margin-left: 44px;
     }
     .footer .footer-title .end {
-        margin-left: 43px;
+        margin-left: 0px;
         font-size: 25px !important;
     }
     .footer-titles p{
-        font-size: 21px;    
+        font-size: 21px;
+        padding-left: 9px;    
+    }
+    .footer .footer-title p {
+        margin-left: -11px;
+    }
+    .footer .footer-copy-right p {
+        font-size: 10px;
     }
     .fa {
         font-size: 40px;
     }
     .footer-end{
-        margin-left: -70px;
+        margin-left: -93px;
     }
     footer img{
         height: 32px;
         margin-left: 0px;
-        padding-left: 22px;
+        padding-left: 5px;
     }
     .test-content {
         background-color: rgba(255,255,255,0.6);
