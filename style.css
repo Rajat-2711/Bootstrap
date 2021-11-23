@@ -1294,6 +1294,9 @@ footer .footer-title .end{
     }
 }
 @media(max-width:576px){
+    header{
+        position: fixed;
+    }
     body{
         overflow-x: hidden;
     }
@@ -1313,7 +1316,7 @@ footer .footer-title .end{
     .hamburger_menu {
         position: relative;
         top: -44px;
-        left: 25px;
+        left: 31px;
         width: 100%;
     }
     .header .navbar {
@@ -1435,7 +1438,7 @@ footer .footer-title .end{
         width: -webkit-fill-available;
         max-width: 237px;
         margin-top: -175px;
-        height: 418px;
+        height: 432px;
     }
     .custom-two-layout-content h2 {
         font-size: 35px;
@@ -1448,7 +1451,10 @@ footer .footer-title .end{
     }
     .about-section p {
         font-size: 18px;
-        padding-left: 10px;
+        padding-left: 2px;
+    }
+    .card .card-body {
+        margin-left: -170px;
     }
     p {
         font-size: 22px;
@@ -1607,6 +1613,9 @@ footer .footer-title .end{
     .car .pricing-car-area {
         margin-top: -40px;
     }
+    header{
+        position: fixed;
+    }
     .header .nav-item .nav-link2 {
         display: block !important;
     }
@@ -1633,7 +1642,7 @@ footer .footer-title .end{
     .hamburger_menu {
         position: relative;
         top: -44px;
-        left: 25px;
+        left: 31px;
         width: 100%;
     }
     .navbar{
@@ -1757,7 +1766,7 @@ footer .footer-title .end{
         width: -webkit-fill-available;
         max-width: 237px;
         margin-top: -175px;
-        height: 418px;
+        height: 432px;
     }
     .custom-two-layout-content h2 {
         font-size: 35px;
@@ -1795,7 +1804,7 @@ footer .footer-title .end{
     }
     .about-section p {
         font-size: 18px;
-        padding-left: 10px;
+        padding-left: 2px;
     }
     p {
         font-size: 22px;
@@ -1885,6 +1894,9 @@ footer .footer-title .end{
     .test-content {
         background-color: rgba(255,255,255,0.6);
         margin-left: 0px;
+    }
+    .card .card-body {
+        margin-left: -170px;
     }
     .black-bg {
         height: 1161px;
