@@ -952,9 +952,9 @@ footer .footer-title .end{
     .navbar-wrapper{
         margin-left: 550px;
     }
-    .custom-two-layout-content{
+    /*.custom-two-layout-content{
         margin-left: 77px;
-    }
+    }*/
     .project-caption .people{
         margin-left: -64px;
         margin-top: -7px;
@@ -979,9 +979,9 @@ footer .footer-title .end{
     .navbar-wrapper{
         margin-left:0px;
     }
-    .custom-two-layout-content{
+    /*.custom-two-layout-content{
         margin-left: 77px;
-    }
+    }*/
     .project-caption .people{
         margin-left: -64px;
         margin-top: -7px;
@@ -1285,18 +1285,18 @@ footer .footer-title .end{
         margin: 0px;
         padding: 0px;
     }
-    .hamburger-menu{
-        width: 35px;
-        height: 30px;
-        margin-top: 0px;
+    .hamburger_menu {
+        position: relative;
+        top: -44px;
+        left: 25px;
+        width: 100%;
+    }
+    .header .navbar {
+        padding: 0;
         position: fixed;
-        margin-left: -16px;
-        top: 0px;
-        left: 0px;
-        z-index: 1;
-        cursor: pointer;
-        display: flex;
-        justify-content: space-around;
+        text-align: left;
+        padding-bottom: 350px;
+        padding-right: 29px;
     }
     .navbar{
         margin-left: -30px;
@@ -1305,16 +1305,16 @@ footer .footer-title .end{
         height: 100%;
         background-color: #262626;
         position: fixed;
-        top: 0;
-        right: 0;
         display: flex;
         justify-content: left;
         align-items: left;
     }
     .nav-item{
         margin: 25px;
+        text-align: center;
         list-style: none;
         color: white;
+        padding-left: 50px;
     }
     .nav-link{
         display: block;
@@ -1352,6 +1352,7 @@ footer .footer-title .end{
     }
     .banner {
         width: 100%;
+        margin-top: -40px;
     }
     .banner-image img {
         width: 100%;
@@ -1360,16 +1361,16 @@ footer .footer-title .end{
         margin-left: 0px;
     }
     .banner .content h6 {
-        font-size: 21px;
+        font-size: 18px;
     }
     .banner .content h1 {
-        font-size: 55px;
+        font-size: 45px;
     }
     .banner .content p {
-        font-size: 23px;
+        font-size: 19px;
     }
     .banner .content .btn2 {
-        font-size: 22px !important;
+        font-size: 18px !important;
     }
     .custom h2 {
         font-size: 47px;
@@ -1531,18 +1532,18 @@ footer .footer-title .end{
         margin: 0px;
         padding: 0px;
     }
-    .hamburger-menu{
-        width: 35px;
-        z-index: 1;
-        height: 30px;
-        margin-top: 0px;
+    .header .navbar {
+        padding: 0;
         position: fixed;
-        top: 0px;
-        left: 0px;
-        margin-left: -16px;
-        cursor: pointer;
-        display: flex;
-        justify-content: space-around;
+        text-align: left;
+        padding-bottom: 350px;
+        padding-right: 29px;
+    }
+    .hamburger_menu {
+        position: relative;
+        top: -44px;
+        left: 25px;
+        width: 100%;
     }
     .navbar{
         width: 100%;
@@ -1550,9 +1551,6 @@ footer .footer-title .end{
         height: 100%;
         background-color: #262626;
         position: fixed;
-        top: 0;
-        margin-left: -30px;
-        right: 0;
         display: flex;
         justify-content: left;
         align-items: left;
@@ -1560,6 +1558,8 @@ footer .footer-title .end{
     .nav-item{
         margin: 25px;
         list-style: none;
+        text-align: center;
+        padding-left: 50px;
         color: white;
     }
     .navbar-expand-sm .navbar-nav .nav-link {
@@ -1601,6 +1601,7 @@ footer .footer-title .end{
     }
     .banner {
         width: 100%;
+        top: -40px;
     }
     .banner-image img {
         width: 100%;
@@ -1609,16 +1610,16 @@ footer .footer-title .end{
         margin-left: 0px;
     }
     .banner .content h6 {
-        font-size: 21px;
+        font-size: 18px;
     }
     .banner .content h1 {
-        font-size: 55px;
+        font-size: 45px;
     }
     .banner .content p {
-        font-size: 23px;
+        font-size: 19px;
     }
     .banner .content .btn2 {
-        font-size: 22px !important;
+        font-size: 18px !important;
     }
     .custom h2 {
         font-size: 47px;
