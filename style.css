@@ -57,7 +57,7 @@ figure.banner-image {
 }
 .navbar-nav{
     margin-bottom: 0px;
-    /* margin-top: 10px; */
+    margin-top: 10px;
 }
 .header .nav-item .nav-link{
     font-size: 16px;
@@ -65,8 +65,8 @@ figure.banner-image {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     display: block;
-    /* margin-top: 5px;
-    margin-right: 20px; */
+    margin-top: 5px;
+    margin-right: 20px;
 }
 .header .nav-item .nav-link2{
     color: #fff!important;
@@ -280,7 +280,7 @@ figure.banner-image {
 .custom-two-layout figure img{
     width: 100%;
     max-width: 720px;
-    height: 661px;
+    height: 613px;
     margin-left: -63px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -293,7 +293,7 @@ figure.banner-image {
     background: #ffe0bb;
     top: 0;
     left: -177px;
-    height: 661px;
+    height: 613px;
     width: 100%;
     max-width: 180px;
 }
@@ -310,11 +310,11 @@ figure.banner-image {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    /* margin-top: 80px; */
+    margin-top: 80px;
     padding-top: 16px;
     width: 375px;
 }
-/* .custom-two-layout-content .serve{
+.custom-two-layout-content .serve{
     font-size: 46px;
     display: block;
     font-weight: 700;
@@ -324,7 +324,7 @@ figure.banner-image {
     color: #000;
     font-style: normal;
     margin-top: 0px;
-} */
+}
 
 .custom-two-layout-content .section-title h2{
     font-size: 46px;
@@ -384,17 +384,18 @@ footer .footer-titles h2{
     line-height: 1.2;
     align-items: center;
 }
-/* .custom-car{
+.custom-car{
     height: 900px;
-} */
+    margin-top: -17px;
+}
 .car{
     background: #ff9100;
-    /* height: 550px; */
+    height: 550px;
 
 }
 .car .pricing-car-area{
     padding-top: 0px;
-    /* padding-bottom: 920px; */
+    padding-bottom: 920px;
     padding-left: 0px;
     width: 100%;
 }
@@ -521,9 +522,9 @@ footer .footer-titles h2{
     
     background-color:black;
 }
-/* .project-caption {
+.project-caption {
     margin-top: 80px;
-} */
+}
 .project-caption .people{
     height: 450px;
 }
@@ -537,9 +538,9 @@ footer .footer-titles h2{
     margin-top: 0px;
     margin-bottom: 22px;
 }
-/* .project-content{
+.project-content{
     margin-left: 170px;
-} */
+}
 /* .project-content{
     padding-left: 50px;
 } */
@@ -584,7 +585,7 @@ footer .footer-titles h2{
     margin-top: 100px;
     background-image:url(https://preview.colorlib.com/theme/thestartup/assets/img/gallery/section-bg1.jpg.webp);
     max-width: 12000px;
-    /* height: 590px; */
+    height: 590px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -649,7 +650,7 @@ footer .footer-titles h2{
 }
 .carousel-item img{
     margin-top: 80px;
-    /* margin-left:50px; */
+    margin-left:0px;
     width: 100%;
     height: 100%;
 }
@@ -662,7 +663,7 @@ footer .footer-titles h2{
 }
 .img-text{
     margin-top: 80px;
-    /* margin-left: 45px; */
+    margin-left: 45px;
 }
 .img-text .open{
     background-color: #ff9100;
@@ -1165,9 +1166,9 @@ footer .footer-title .end{
         width: 100%;
         max-width: 400px;
     }
-    .project-content h2{
+    /* .project-content h2{
         margin-top: 210px;
-    }
+    } */
     .car {
         width: 100%;
         max-width: 800px;
@@ -1239,9 +1240,9 @@ footer .footer-title .end{
         width: 100%;
         max-width: 180px;
     }
-    .project-content h2{
+    /* .project-content h2{
         margin-top: 165px;
-    }
+    } */
     .car {
         width: 100%;
     }
@@ -1418,6 +1419,9 @@ footer .footer-title .end{
         margin-left: -12px;
         margin-top: 0px;
     }
+    .custom-two-layout-content{
+        margin-top: 20px;
+    }
     .custom-content-img-box {
         margin-bottom: 36px;
     }
@@ -1480,9 +1484,12 @@ footer .footer-title .end{
         margin-top: 0;
         padding-left: 0;
     }
-    .accordion{
-        margin-top: 66px;
+    .project-caption{
+        margin-top: 1240px;
     }
+    /* .accordion{
+        margin-top: 66px;
+    } */
     .project-content .card {
         width: 100%;
         margin-left: -12px;
@@ -1587,6 +1594,9 @@ footer .footer-title .end{
         font-family: 'Josefin Sans', sans-serif;
         color: #000;
     }
+    .project-content{
+        margin-left: 0px;
+    }
         .section-header p{
         padding-right: 20px;
     }
@@ -1599,6 +1609,9 @@ footer .footer-title .end{
     }
     .car .pricing-car-area {
         margin-top: -40px;
+    }
+    .carousel-item img{
+        margin-left: 0px;
     }
 }
 @media(max-width:320px)
@@ -1614,9 +1627,9 @@ footer .footer-title .end{
     .custom-two-layout-content .section-title h2 {
         padding-left: 0px;
     }
-    .car .pricing-car-area {
+    /* .car .pricing-car-area {
         margin-top: -40px;
-    }
+    } */
     header{
         position: fixed;
     }
@@ -1718,6 +1731,9 @@ footer .footer-title .end{
         width: 100%;
         top: -40px;
     }
+    .project-caption{
+        margin-top: 1240px;
+    }
     .banner-image img {
         width: -webkit-fill-available;
     }
@@ -1740,6 +1756,9 @@ footer .footer-title .end{
         margin-top: 36px;
         width: -webkit-fill-available;
         height: -webkit-fill-available;
+    }
+    .custom-two-layout-content{
+        margin-top: 20px;
     }
     .banner .content .btn2 {
         font-size: 18px !important;
@@ -1842,6 +1861,9 @@ footer .footer-title .end{
         background-color: aliceblue;
         margin-bottom: 50px;
     }
+    .project-content{
+        margin-left: 0px;
+    }
     .project-content h2 {
         font-size: 29px;
         /* margin-top: 1160px; */
@@ -1933,5 +1955,8 @@ footer .footer-title .end{
         left: 0px;
         top:0px;
         z-index: 1;
+    }
+    .carousel-item img{
+        margin-left: 0px;
     }
 }
