@@ -1313,6 +1313,9 @@ footer .footer-title .end{
         margin: 0px;
         padding: 0px;
     }
+    .header .logo img{
+        margin-left: -20px;
+    }
     .hamburger_menu {
         position: relative;
         top: -44px;
@@ -1406,7 +1409,7 @@ footer .footer-title .end{
         padding-top: 12px;
         padding-bottom: 11px;
         padding-left: 25px;
-        padding-right: 31px;
+        padding-right: 28px;
     }
     .custom h2 {
         font-size: 40px;
@@ -1532,14 +1535,17 @@ footer .footer-title .end{
     footer .footer-pera p {
         font-size: 18px;
         margin-left: -95px;
+        margin-top: -80px;
     }
     .footer .footer-copy-right p {
-        font-size: 10px;
+        font-size: 11px;
+        margin-left: -15px;
     }
     footer img{
         height: 32px;
         margin-left: 0px;
         padding-left: 5px;
+        margin-top: -183px;
         }
     .fa {
         font-size: 40px;
@@ -1550,19 +1556,21 @@ footer .footer-title .end{
     }
     .footer-titles p{
         font-size: 21px;
-        padding-left: 9px;    
+        padding-left: 0px;    
     }
     p {
         font-size: 20px;
     }
     .footer .footer-title ul {
         margin-left: 44px;
+        margin-top: 30.8px;
     }
     .footer-end{
         margin-left: -93px;
     }
     .footer .footer-title .end {
-        margin-left: 0px;
+        margin-left: 4px;
+        margin-top: -3px;
         font-size: 25px !important;
     }
     .test-content {
@@ -1570,7 +1578,7 @@ footer .footer-title .end{
     background-color: rgba(255,255,255,0.6);
     }
     .black-bg {
-    height: 1161px;
+    height: 1000px;
     }
     .sidebar{
         position: fixed;
@@ -1590,7 +1598,8 @@ footer .footer-title .end{
         font-size: 19px;
     }
     .footer .footer-title p {
-        margin-left: -11px;
+        margin-left: -8px;
+        margin-top: 21px;
     }
     .car .pricing-car-area {
         margin-top: -40px;
@@ -1632,6 +1641,9 @@ footer .footer-title .end{
         margin: 0px;
         padding: 0px;
     }
+    .header .logo img{
+        margin-left: -20px;
+    }
     .header .navbar {
         padding: 0;
         position: fixed;
@@ -1644,6 +1656,7 @@ footer .footer-title .end{
         top: -44px;
         left: 31px;
         width: 100%;
+        background-image: url(download.webp);
     }
     .navbar{
         width: 100%;
@@ -1736,7 +1749,7 @@ footer .footer-title .end{
         padding-top: 12px;
         padding-bottom: 11px;
         padding-left: 25px;
-        padding-right: 31px;
+        padding-right: 28px;
     }
     .custom h2 {
         font-size: 47px;
@@ -1858,6 +1871,7 @@ footer .footer-title .end{
     footer .footer-pera p {
     font-size: 18px;
     margin-left: -95px;
+    margin-top: -80px;
     }
     footer .footer-title h4 {
         margin-top: 0px;
@@ -1865,20 +1879,24 @@ footer .footer-title .end{
     }
     .footer .footer-title ul {
         margin-left: 44px;
+        margin-top: 30.8px;
     }
     .footer .footer-title .end {
-        margin-left: 0px;
+        margin-left: 4px;
+        margin-top: -3px;
         font-size: 25px !important;
     }
     .footer-titles p{
         font-size: 21px;
-        padding-left: 9px;    
+        padding-left: 0px;    
     }
     .footer .footer-title p {
-        margin-left: -11px;
+        margin-left: -8px;
+        margin-top: 21px;
     }
     .footer .footer-copy-right p {
-        font-size: 10px;
+        font-size: 11px;
+        margin-left: -15px;
     }
     .fa {
         font-size: 40px;
@@ -1890,6 +1908,7 @@ footer .footer-title .end{
         height: 32px;
         margin-left: 0px;
         padding-left: 5px;
+        margin-top: -183px;
     }
     .test-content {
         background-color: rgba(255,255,255,0.6);
@@ -1899,7 +1918,7 @@ footer .footer-title .end{
         margin-left: -170px;
     }
     .black-bg {
-        height: 1161px;
+        height: 1000px;
         }
         .sidebar{
             position: fixed;
