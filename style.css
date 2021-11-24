@@ -1322,7 +1322,7 @@ footer .footer-title .end{
     .hamburger_menu {
         position: relative;
         top: -44px;
-        left: 31px;
+        left: 42px;
         width: 100%;
     }
     .header .navbar {
@@ -1351,7 +1351,6 @@ footer .footer-title .end{
         text-align: center;
         list-style: none;
         color: white;
-        padding-left: 50px;
     }
     .nav-link{
         display: block;
@@ -1666,7 +1665,7 @@ footer .footer-title .end{
     .hamburger_menu {
         position: relative;
         top: -44px;
-        left: 31px;
+        left: 42px;
         width: 100%;
         background-image: url(download.webp);
     }
@@ -1684,7 +1683,6 @@ footer .footer-title .end{
         margin: 25px;
         list-style: none;
         text-align: center;
-        padding-left: 50px;
         color: white;
     }
     .navbar-expand-sm .navbar-nav .nav-link {
