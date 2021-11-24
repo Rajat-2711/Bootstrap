@@ -57,7 +57,7 @@ figure.banner-image {
 }
 .navbar-nav{
     margin-bottom: 0px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .header .nav-item .nav-link{
     font-size: 16px;
@@ -65,8 +65,8 @@ figure.banner-image {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     display: block;
-    margin-top: 5px;
-    margin-right: 20px;
+    /* margin-top: 5px;
+    margin-right: 20px; */
 }
 .header .nav-item .nav-link2{
     color: #fff!important;
@@ -271,11 +271,12 @@ figure.banner-image {
     color:#ff9100;
 }
 .custom-two-layout{
-    margin-top: 135px;
+    margin-top: 0px;
+    padding-top: 100px;
 }
-.custom-two-layout .col-sm-7{
+/* .custom-two-layout .col-sm-7{
     height: 567px;
-}
+} */
 .custom-two-layout figure img{
     width: 100%;
     max-width: 720px;
@@ -309,7 +310,8 @@ figure.banner-image {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    padding-top: 16px;
     width: 375px;
 }
 /* .custom-two-layout-content .serve{
@@ -382,17 +384,17 @@ footer .footer-titles h2{
     line-height: 1.2;
     align-items: center;
 }
-.custom-car{
+/* .custom-car{
     height: 900px;
-}
+} */
 .car{
     background: #ff9100;
-    height: 550px;
+    /* height: 550px; */
 
 }
 .car .pricing-car-area{
     padding-top: 0px;
-    padding-bottom: 920px;
+    /* padding-bottom: 920px; */
     padding-left: 0px;
     width: 100%;
 }
@@ -519,9 +521,9 @@ footer .footer-titles h2{
     
     background-color:black;
 }
-.project-caption {
+/* .project-caption {
     margin-top: 80px;
-}
+} */
 .project-caption .people{
     height: 450px;
 }
@@ -538,9 +540,9 @@ footer .footer-titles h2{
 /* .project-content{
     margin-left: 170px;
 } */
-.project-content{
+/* .project-content{
     padding-left: 50px;
-}
+} */
 .project-content .btn-link-collapsed{
     color: black;
 }
@@ -582,7 +584,7 @@ footer .footer-titles h2{
     margin-top: 100px;
     background-image:url(https://preview.colorlib.com/theme/thestartup/assets/img/gallery/section-bg1.jpg.webp);
     max-width: 12000px;
-    height: 590px;
+    /* height: 590px; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -960,9 +962,9 @@ footer .footer-title .end{
         max-width: 120px;
         text-align: center;
     }
-    .navbar-expand-sm .navbar-nav{
+    /* .navbar-expand-sm .navbar-nav{
         margin-left: 55px;
-    }
+    } */
     .banner-image img {
         width: 100%;
     }
@@ -1071,9 +1073,9 @@ footer .footer-title .end{
     .navbar-expand-sm .navbar-nav .nav-link{
         margin-left: 0px;
     }
-    .header .nav-item .nav-link2{
+    /* .header .nav-item .nav-link2{
         margin-right: 50px;
-    }
+    } */
 }
 @media(max-width:768px) {
     .banner .content{
@@ -1136,9 +1138,9 @@ footer .footer-title .end{
     .navbar-expand-sm .navbar-nav .nav-link{
         margin-left: 0px;
     }
-    .header .nav-item .nav-link2{
+    /* .header .nav-item .nav-link2{
         margin-right: 50px;
-    }
+    } */
 }
 
 @media(max-width:768px){
@@ -1301,15 +1303,16 @@ footer .footer-title .end{
     .hamburger_menu {
         position: relative;
         top: -44px;
-        left: 17px;
+        left: 0px;
         width: 100%;
     }
     .header .navbar {
         padding: 0;
         position: fixed;
+        align-items: baseline;
         text-align: left;
-        padding-bottom: 350px;
-        padding-right: 29px;
+        /* padding-bottom: 350px;
+        padding-right: 29px; */
     }
     .card .card-header a {
         margin-left: 0;
@@ -1423,7 +1426,6 @@ footer .footer-title .end{
     }
     .custom-two-layout-content .section-title h2 {
         padding-left: 0px;
-        margin-top: -294px;
     }
     .custom-two-layout figure img {
         width: -webkit-fill-available;
@@ -1467,7 +1469,7 @@ footer .footer-title .end{
     }
     .project-content h2 {
         font-size: 29px;
-        margin-top: 1160px;
+        /* margin-top: 1160px; */
         margin-left: 0px;
         padding-left: 0px;
         font-family: "Josefin Sans",sans-serif;
@@ -1487,7 +1489,7 @@ footer .footer-title .end{
         margin-bottom: 13px;
     }
     .contain {
-        height: 536px;
+        /* height: 536px; */
         margin-top: 24px;
         width: 100%;
         max-width: -webkit-fill-available;
@@ -1528,7 +1530,7 @@ footer .footer-title .end{
         margin-top: -80px;
     }
     .footer .footer-copy-right p {
-        font-size: 11px;
+        font-size: 10px;
         margin-left: -15px;
         margin-top: -36px;
     }
@@ -1596,7 +1598,7 @@ footer .footer-title .end{
         margin-top: -40px;
     }
 }
-@media(max-width:375px)
+@media(max-width:320px)
 {
     body{
         overflow-x: hidden;
@@ -1608,7 +1610,6 @@ footer .footer-title .end{
     }
     .custom-two-layout-content .section-title h2 {
         padding-left: 0px;
-        margin-top: -294px;
     }
     .car .pricing-car-area {
         margin-top: -40px;
@@ -1641,14 +1642,15 @@ footer .footer-title .end{
     .header .navbar {
         padding: 0;
         position: fixed;
+        align-items: baseline;
         text-align: left;
-        padding-bottom: 350px;
-        padding-right: 29px;
+        /* padding-bottom: 350px;
+        padding-right: 29px; */
     }
     .hamburger_menu {
         position: relative;
         top: -44px;
-        left: 17px;
+        left: 0px;
         width: 100%;
         background-image: url(download.webp);
     }
@@ -1839,7 +1841,7 @@ footer .footer-title .end{
     }
     .project-content h2 {
         font-size: 29px;
-        margin-top: 1160px;
+        /* margin-top: 1160px; */
         margin-left: 0px;
         padding-left: 0px;
         font-family: "Josefin Sans",sans-serif;
@@ -1856,7 +1858,7 @@ footer .footer-title .end{
         margin-bottom: 13px;
     }
     .contain {
-        height: 536px;
+        /* height: 536px; */
         margin-top: 24px;
         width: 100%;
         max-width: -webkit-fill-available;
@@ -1894,8 +1896,9 @@ footer .footer-title .end{
         margin-top: 21px;
     }
     .footer .footer-copy-right p {
-        font-size: 11px;
+        font-size: 10px;
         margin-left: -36px;
+        margin-top: -36px;
     }
     .fa {
         font-size: 40px;
@@ -1919,10 +1922,10 @@ footer .footer-title .end{
     .black-bg {
         height: 960px;
         }
-        .sidebar{
-            position: fixed;
-            left: 0px;
-            top:0px;
-            z-index: 1;
-        }
+    .sidebar{
+        position: fixed;
+        left: 0px;
+        top:0px;
+        z-index: 1;
     }
+}
