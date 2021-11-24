@@ -526,7 +526,7 @@ footer .footer-titles h2{
     height: 450px;
 }
 .project-content h2{
-    font-size: 46px;
+    font-size: 40px;
     font-family: 'Josefin Sans',sans-serif;
     display: block;
     font-weight: 700;
@@ -535,8 +535,11 @@ footer .footer-titles h2{
     margin-top: 0px;
     margin-bottom: 22px;
 }
-.project-content{
+/* .project-content{
     margin-left: 170px;
+} */
+.project-content{
+    padding-left: 50px;
 }
 .project-content .btn-link-collapsed{
     color: black;
@@ -1329,6 +1332,9 @@ footer .footer-title .end{
         padding-bottom: 350px;
         padding-right: 29px;
     }
+    .card .card-header a {
+        margin-left: 0;
+    }
     .navbar{
         margin-left: -30px;
         width: 100%;
@@ -1457,7 +1463,7 @@ footer .footer-title .end{
         padding-left: 2px;
     }
     .card .card-body {
-        margin-left: -170px;
+        margin-left: 0px;
     }
     p {
         font-size: 22px;
@@ -1480,7 +1486,9 @@ footer .footer-title .end{
     .project-content h2 {
         font-size: 29px;
         margin-top: 1160px;
-        margin-left: -163px;
+        margin-left: 0px;
+        padding-left: 0px;
+        font-family: "Josefin Sans",sans-serif;
     }
     .project-caption .people {
         height: -webkit-fill-available;
@@ -1503,8 +1511,8 @@ footer .footer-title .end{
         max-width: -webkit-fill-available;
     }
     .card-header {
+        padding-left: 100px;
         width: -webkit-fill-available;
-        margin-left: -37px;
     }
     .context-wrapper .context-para {
         margin-left: 0;
@@ -1540,6 +1548,7 @@ footer .footer-title .end{
     .footer .footer-copy-right p {
         font-size: 11px;
         margin-left: -15px;
+        margin-top: -36px;
     }
     footer img{
         height: 32px;
@@ -1578,7 +1587,7 @@ footer .footer-title .end{
     background-color: rgba(255,255,255,0.6);
     }
     .black-bg {
-    height: 1000px;
+    height: 960px;
     }
     .sidebar{
         position: fixed;
@@ -1643,6 +1652,9 @@ footer .footer-title .end{
     }
     .header .logo img{
         margin-left: -20px;
+    }
+    .card .card-header a {
+        margin-left: 0;
     }
     .header .navbar {
         padding: 0;
@@ -1831,8 +1843,8 @@ footer .footer-title .end{
         max-width: 857px;
     }
     .card-header {
+        padding-left: 100px;
         width: -webkit-fill-available;
-        margin-left: -37px;
     }
     .single-card {
         width: -webkit-fill-available;;
@@ -1843,7 +1855,9 @@ footer .footer-title .end{
     .project-content h2 {
         font-size: 29px;
         margin-top: 1160px;
-        margin-left: -163px;
+        margin-left: 0px;
+        padding-left: 0px;
+        font-family: "Josefin Sans",sans-serif;
     }
     .project-caption .people {
         height: -webkit-fill-available;
@@ -1896,7 +1910,7 @@ footer .footer-title .end{
     }
     .footer .footer-copy-right p {
         font-size: 11px;
-        margin-left: -15px;
+        margin-left: -36px;
     }
     .fa {
         font-size: 40px;
@@ -1915,10 +1929,10 @@ footer .footer-title .end{
         margin-left: 0px;
     }
     .card .card-body {
-        margin-left: -170px;
+        margin-left: 0px;
     }
     .black-bg {
-        height: 1000px;
+        height: 960px;
         }
         .sidebar{
             position: fixed;
