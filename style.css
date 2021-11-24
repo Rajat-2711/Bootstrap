@@ -1052,14 +1052,6 @@ footer .footer-title .end{
     .about-more p{
         font-size: 16px;
     }
-    .custom-two-layout figure::before{
-        width: 100%;
-        max-width: 200px;
-        height: 471px;
-        left: -177px;
-        top: 64px;
-        margin-top: -64px;
-    }
     .custom-two-layout-content h2{
         font-size: 28px;
     }
@@ -1110,14 +1102,6 @@ footer .footer-title .end{
         margin-left: -20px;
         height: 496px;
         margin-top: 0px;
-    }
-    .custom-two-layout figure::before{
-        width: 100%;
-        max-width: 200px;
-        height: 471px;
-        left: -177px;
-        top: 64px;
-        margin-top: -64px;
     }
     .custom h2{
         font-size: 31px;
@@ -1179,11 +1163,6 @@ footer .footer-title .end{
     .header .nav-item .nav-link2{
         display: none;
     }
-    .custom-two-layout figure::before {
-        width: 100%;
-        max-width: 193px;
-        height: 586px;
-    }
     .custom-two-layout figure img {
         height: 586px;
         width: 100%;
@@ -1244,11 +1223,6 @@ footer .footer-title .end{
     }
     .header .nav-item .nav-link2{
         display: none;
-    }
-    .custom-two-layout figure::before {
-        width: 100%;
-        max-width: 193px;
-        height: 586px;
     }
         .custom-three-layout p {
         margin-left: -12px;
