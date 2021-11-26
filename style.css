@@ -550,6 +550,18 @@ footer .footer-titles h2{
 .project-content .card-link a{
     margin-left: 500px;
 }
+.card-link .fa{
+    display: none;
+}
+.card-link .fa.fa-plus{
+    display: inline-block;
+}
+.card-link .collapsed .fa.fa-plus{
+    display: none;
+}
+.card-link .collapsed .fa.fa-minus{
+    display: inline-block;
+}
 .project-content .card{
     margin-left: -18px;
     display: block;
